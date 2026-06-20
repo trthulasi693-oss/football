@@ -1,0 +1,31 @@
+2026-06-01 15:34:55 [INFO] apscheduler.scheduler: Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-06-01 15:34:55 [INFO] __main__: 调度器启动，每天 03:00 自动采集（时区：Asia/Shanghai）
+2026-06-01 15:34:55 [INFO] __main__: run_on_start=True，立即执行一次...
+2026-06-01 15:34:55 [INFO] __main__: ═══ 开始采集任务 2026-05-27 → 2026-06-01 ═══
+2026-06-01 15:34:55 [INFO] crawler.spider: 开始抓取比赛数据 2026-05-27 → 2026-06-01
+2026-06-01 15:34:56 [INFO] crawler.spider: 总页数: 2，第 1 页数据: 30 条
+2026-06-01 15:34:56 [INFO] crawler.spider: 正在抓取第 2 / 2 页...
+2026-06-01 15:34:57 [INFO] crawler.spider: 全部页抓取完成，共 55 条原始记录
+2026-06-01 15:34:57 [INFO] crawler.spider: 全部解析成功，共 55 条
+2026-06-01 15:34:57 [INFO] __main__: Step 1 完成：抓取 55 条记录
+2026-06-01 15:34:57 [INFO] crawler.storage: ✅ 入库完成：新增 25 条，更新 1 条，跳过 29 条
+2026-06-01 15:34:57 [INFO] __main__: Step 2 完成：新增 25，更新 1，跳过 29
+2026-06-01 15:34:57 [INFO] __main__: ═══ 采集任务完成 ═══
+2026-06-01 15:34:57 [INFO] apscheduler.scheduler: Added job "每日竞彩数据采集" to job store "default"
+2026-06-01 15:34:57 [INFO] apscheduler.scheduler: Scheduler started
+2026-06-01 15:36:48 [INFO] __main__: 调度器已停止。
+2026-06-01 15:38:38 [INFO] apscheduler.scheduler: Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-06-01 15:38:38 [INFO] __main__: 调度器启动，每天 03:00 自动采集（时区：Asia/Shanghai）
+2026-06-01 15:38:38 [INFO] __main__: run_on_start=True，立即执行一次...
+2026-06-01 15:38:38 [INFO] __main__: ═══ 开始采集任务 2026-05-29 → 2026-06-01 ═══
+2026-06-01 15:38:38 [INFO] crawler.spider: 开始抓取比赛数据 2026-05-29 → 2026-06-01
+2026-06-01 15:38:38 [INFO] crawler.spider: 总页数: 2，第 1 页数据: 30 条
+2026-06-01 15:38:38 [INFO] crawler.spider: 正在抓取第 2 / 2 页...
+2026-06-01 15:38:40 [INFO] crawler.spider: 全部页抓取完成，共 41 条原始记录
+2026-06-01 15:38:40 [INFO] crawler.spider: 全部解析成功，共 41 条
+2026-06-01 15:38:40 [INFO] __main__: Step 1 完成：抓取 41 条记录
+2026-06-01 15:38:40 [INFO] crawler.storage: ✅ 入库完成：新增 0 条，更新 0 条，跳过 41 条
+2026-06-01 15:38:40 [INFO] __main__: Step 2 完成：新增 0，更新 0，跳过 41
+2026-06-01 15:38:40 [INFO] __main__: ═══ 采集任务完成 ═══
+2026-06-01 15:38:40 [INFO] apscheduler.scheduler: Added job "每日竞彩数据采集" to job store "default"
+2026-06-01 15:38:40 [INFO] apscheduler.scheduler: Scheduler started

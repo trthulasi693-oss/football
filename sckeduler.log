@@ -1,0 +1,229 @@
+nohup: ignoring input
+2026-06-01 15:38:38 [INFO] apscheduler.scheduler: Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-06-01 15:38:38 [INFO] __main__: 调度器启动，每天 03:00 自动采集（时区：Asia/Shanghai）
+2026-06-01 15:38:38 [INFO] __main__: run_on_start=True，立即执行一次...
+2026-06-01 15:38:38 [INFO] __main__: ═══ 开始采集任务 2026-05-29 → 2026-06-01 ═══
+2026-06-01 15:38:38 [INFO] crawler.spider: 开始抓取比赛数据 2026-05-29 → 2026-06-01
+2026-06-01 15:38:38 [INFO] crawler.spider: 总页数: 2，第 1 页数据: 30 条
+2026-06-01 15:38:38 [INFO] crawler.spider: 正在抓取第 2 / 2 页...
+2026-06-01 15:38:40 [INFO] crawler.spider: 全部页抓取完成，共 41 条原始记录
+2026-06-01 15:38:40 [INFO] crawler.spider: 全部解析成功，共 41 条
+2026-06-01 15:38:40 [INFO] __main__: Step 1 完成：抓取 41 条记录
+2026-06-01 15:38:40 [INFO] crawler.storage: ✅ 入库完成：新增 0 条，更新 0 条，跳过 41 条
+2026-06-01 15:38:40 [INFO] __main__: Step 2 完成：新增 0，更新 0，跳过 41
+2026-06-01 15:38:40 [INFO] __main__: ═══ 采集任务完成 ═══
+2026-06-01 15:38:40 [INFO] apscheduler.scheduler: Added job "每日竞彩数据采集" to job store "default"
+2026-06-01 15:38:40 [INFO] apscheduler.scheduler: Scheduler started
+2026-06-02 03:00:00 [INFO] apscheduler.executors.default: Running job "每日竞彩数据采集 (trigger: cron[hour='3', minute='0'], next run at: 2026-06-02 03:00:00 CST)" (scheduled at 2026-06-02 03:00:00+08:00)
+2026-06-02 03:00:00 [INFO] __main__: ═══ 开始采集任务 2026-05-29 → 2026-06-02 ═══
+2026-06-02 03:00:00 [INFO] crawler.spider: 开始抓取比赛数据 2026-05-29 → 2026-06-02
+2026-06-02 03:00:01 [INFO] crawler.spider: 总页数: 2，第 1 页数据: 30 条
+2026-06-02 03:00:01 [INFO] crawler.spider: 正在抓取第 2 / 2 页...
+2026-06-02 03:00:02 [INFO] crawler.spider: 全部页抓取完成，共 41 条原始记录
+2026-06-02 03:00:02 [INFO] crawler.spider: 全部解析成功，共 41 条
+2026-06-02 03:00:02 [INFO] __main__: Step 1 完成：抓取 41 条记录
+2026-06-02 03:00:02 [INFO] crawler.storage: ✅ 入库完成：新增 0 条，更新 0 条，跳过 41 条
+2026-06-02 03:00:02 [INFO] __main__: Step 2 完成：新增 0，更新 0，跳过 41
+2026-06-02 03:00:02 [INFO] __main__: ═══ 采集任务完成 ═══
+2026-06-02 03:00:02 [INFO] apscheduler.executors.default: Job "每日竞彩数据采集 (trigger: cron[hour='3', minute='0'], next run at: 2026-06-03 03:00:00 CST)" executed successfully
+2026-06-03 03:00:00 [INFO] apscheduler.executors.default: Running job "每日竞彩数据采集 (trigger: cron[hour='3', minute='0'], next run at: 2026-06-04 03:00:00 CST)" (scheduled at 2026-06-03 03:00:00+08:00)
+2026-06-03 03:00:00 [INFO] __main__: ═══ 开始采集任务 2026-05-29 → 2026-06-03 ═══
+2026-06-03 03:00:00 [INFO] crawler.spider: 开始抓取比赛数据 2026-05-29 → 2026-06-03
+2026-06-03 03:00:00 [INFO] crawler.spider: 总页数: 2，第 1 页数据: 30 条
+2026-06-03 03:00:00 [INFO] crawler.spider: 正在抓取第 2 / 2 页...
+2026-06-03 03:00:02 [INFO] crawler.spider: 全部页抓取完成，共 47 条原始记录
+2026-06-03 03:00:02 [INFO] crawler.spider: 全部解析成功，共 47 条
+2026-06-03 03:00:02 [INFO] __main__: Step 1 完成：抓取 47 条记录
+2026-06-03 03:00:02 [INFO] crawler.storage: ✅ 入库完成：新增 6 条，更新 0 条，跳过 41 条
+2026-06-03 03:00:02 [INFO] __main__: Step 2 完成：新增 6，更新 0，跳过 41
+2026-06-03 03:00:02 [INFO] __main__: ═══ 采集任务完成 ═══
+2026-06-03 03:00:02 [INFO] apscheduler.executors.default: Job "每日竞彩数据采集 (trigger: cron[hour='3', minute='0'], next run at: 2026-06-04 03:00:00 CST)" executed successfully
+2026-06-04 03:00:00 [INFO] apscheduler.executors.default: Running job "每日竞彩数据采集 (trigger: cron[hour='3', minute='0'], next run at: 2026-06-05 03:00:00 CST)" (scheduled at 2026-06-04 03:00:00+08:00)
+2026-06-04 03:00:00 [INFO] __main__: ═══ 开始采集任务 2026-05-30 → 2026-06-04 ═══
+2026-06-04 03:00:00 [INFO] crawler.spider: 开始抓取比赛数据 2026-05-30 → 2026-06-04
+2026-06-04 03:00:00 [INFO] crawler.spider: 总页数: 2，第 1 页数据: 30 条
+2026-06-04 03:00:00 [INFO] crawler.spider: 正在抓取第 2 / 2 页...
+2026-06-04 03:00:02 [INFO] crawler.spider: 全部页抓取完成，共 45 条原始记录
+2026-06-04 03:00:02 [INFO] crawler.spider: 全部解析成功，共 45 条
+2026-06-04 03:00:02 [INFO] __main__: Step 1 完成：抓取 45 条记录
+2026-06-04 03:00:02 [INFO] crawler.storage: ✅ 入库完成：新增 3 条，更新 0 条，跳过 42 条
+2026-06-04 03:00:02 [INFO] __main__: Step 2 完成：新增 3，更新 0，跳过 42
+2026-06-04 03:00:02 [INFO] __main__: ═══ 采集任务完成 ═══
+2026-06-04 03:00:02 [INFO] apscheduler.executors.default: Job "每日竞彩数据采集 (trigger: cron[hour='3', minute='0'], next run at: 2026-06-05 03:00:00 CST)" executed successfully
+2026-06-05 03:00:00 [INFO] apscheduler.executors.default: Running job "每日竞彩数据采集 (trigger: cron[hour='3', minute='0'], next run at: 2026-06-06 03:00:00 CST)" (scheduled at 2026-06-05 03:00:00+08:00)
+2026-06-05 03:00:00 [INFO] __main__: ═══ 开始采集任务 2026-05-31 → 2026-06-05 ═══
+2026-06-05 03:00:00 [INFO] crawler.spider: 开始抓取比赛数据 2026-05-31 → 2026-06-05
+2026-06-05 03:00:01 [INFO] crawler.spider: 总页数: 1，第 1 页数据: 27 条
+2026-06-05 03:00:01 [INFO] crawler.spider: 全部页抓取完成，共 27 条原始记录
+2026-06-05 03:00:01 [INFO] crawler.spider: 全部解析成功，共 27 条
+2026-06-05 03:00:01 [INFO] __main__: Step 1 完成：抓取 27 条记录
+2026-06-05 03:00:01 [INFO] crawler.storage: ✅ 入库完成：新增 4 条，更新 0 条，跳过 23 条
+2026-06-05 03:00:01 [INFO] __main__: Step 2 完成：新增 4，更新 0，跳过 23
+2026-06-05 03:00:01 [INFO] __main__: ═══ 采集任务完成 ═══
+2026-06-05 03:00:01 [INFO] apscheduler.executors.default: Job "每日竞彩数据采集 (trigger: cron[hour='3', minute='0'], next run at: 2026-06-06 03:00:00 CST)" executed successfully
+2026-06-06 03:00:00 [INFO] apscheduler.executors.default: Running job "每日竞彩数据采集 (trigger: cron[hour='3', minute='0'], next run at: 2026-06-07 03:00:00 CST)" (scheduled at 2026-06-06 03:00:00+08:00)
+2026-06-06 03:00:00 [INFO] __main__: ═══ 开始采集任务 2026-06-01 → 2026-06-06 ═══
+2026-06-06 03:00:00 [INFO] crawler.spider: 开始抓取比赛数据 2026-06-01 → 2026-06-06
+2026-06-06 03:00:00 [INFO] crawler.spider: 总页数: 1，第 1 页数据: 22 条
+2026-06-06 03:00:00 [INFO] crawler.spider: 全部页抓取完成，共 22 条原始记录
+2026-06-06 03:00:00 [INFO] crawler.spider: 全部解析成功，共 22 条
+2026-06-06 03:00:00 [INFO] __main__: Step 1 完成：抓取 22 条记录
+2026-06-06 03:00:00 [INFO] crawler.storage: ✅ 入库完成：新增 6 条，更新 0 条，跳过 16 条
+2026-06-06 03:00:00 [INFO] __main__: Step 2 完成：新增 6，更新 0，跳过 16
+2026-06-06 03:00:00 [INFO] __main__: ═══ 采集任务完成 ═══
+2026-06-06 03:00:00 [INFO] apscheduler.executors.default: Job "每日竞彩数据采集 (trigger: cron[hour='3', minute='0'], next run at: 2026-06-07 03:00:00 CST)" executed successfully
+2026-06-07 03:00:00 [INFO] apscheduler.executors.default: Running job "每日竞彩数据采集 (trigger: cron[hour='3', minute='0'], next run at: 2026-06-08 03:00:00 CST)" (scheduled at 2026-06-07 03:00:00+08:00)
+2026-06-07 03:00:00 [INFO] __main__: ═══ 开始采集任务 2026-06-02 → 2026-06-07 ═══
+2026-06-07 03:00:00 [INFO] crawler.spider: 开始抓取比赛数据 2026-06-02 → 2026-06-07
+2026-06-07 03:00:00 [INFO] crawler.spider: 总页数: 1，第 1 页数据: 29 条
+2026-06-07 03:00:00 [INFO] crawler.spider: 全部页抓取完成，共 29 条原始记录
+2026-06-07 03:00:00 [INFO] crawler.spider: 全部解析成功，共 29 条
+2026-06-07 03:00:00 [INFO] __main__: Step 1 完成：抓取 29 条记录
+2026-06-07 03:00:00 [INFO] crawler.storage: ✅ 入库完成：新增 10 条，更新 1 条，跳过 18 条
+2026-06-07 03:00:00 [INFO] __main__: Step 2 完成：新增 10，更新 1，跳过 18
+2026-06-07 03:00:00 [INFO] __main__: ═══ 采集任务完成 ═══
+2026-06-07 03:00:00 [INFO] apscheduler.executors.default: Job "每日竞彩数据采集 (trigger: cron[hour='3', minute='0'], next run at: 2026-06-08 03:00:00 CST)" executed successfully
+2026-06-08 03:00:00 [INFO] apscheduler.executors.default: Running job "每日竞彩数据采集 (trigger: cron[hour='3', minute='0'], next run at: 2026-06-09 03:00:00 CST)" (scheduled at 2026-06-08 03:00:00+08:00)
+2026-06-08 03:00:00 [INFO] __main__: ═══ 开始采集任务 2026-06-04 → 2026-06-08 ═══
+2026-06-08 03:00:00 [INFO] crawler.spider: 开始抓取比赛数据 2026-06-04 → 2026-06-08
+2026-06-08 03:00:02 [INFO] crawler.spider: 总页数: 1，第 1 页数据: 30 条
+2026-06-08 03:00:02 [INFO] crawler.spider: 全部页抓取完成，共 30 条原始记录
+2026-06-08 03:00:02 [INFO] crawler.spider: 全部解析成功，共 30 条
+2026-06-08 03:00:02 [INFO] __main__: Step 1 完成：抓取 30 条记录
+2026-06-08 03:00:02 [INFO] crawler.storage: ✅ 入库完成：新增 0 条，更新 0 条，跳过 30 条
+2026-06-08 03:00:02 [INFO] __main__: Step 2 完成：新增 0，更新 0，跳过 30
+2026-06-08 03:00:02 [INFO] __main__: ═══ 采集任务完成 ═══
+2026-06-08 03:00:02 [INFO] apscheduler.executors.default: Job "每日竞彩数据采集 (trigger: cron[hour='3', minute='0'], next run at: 2026-06-09 03:00:00 CST)" executed successfully
+2026-06-09 03:00:00 [INFO] apscheduler.executors.default: Running job "每日竞彩数据采集 (trigger: cron[hour='3', minute='0'], next run at: 2026-06-10 03:00:00 CST)" (scheduled at 2026-06-09 03:00:00+08:00)
+2026-06-09 03:00:00 [INFO] __main__: ═══ 开始采集任务 2026-06-05 → 2026-06-09 ═══
+2026-06-09 03:00:00 [INFO] crawler.spider: 开始抓取比赛数据 2026-06-05 → 2026-06-09
+2026-06-09 03:00:00 [INFO] crawler.spider: 总页数: 1，第 1 页数据: 30 条
+2026-06-09 03:00:00 [INFO] crawler.spider: 全部页抓取完成，共 30 条原始记录
+2026-06-09 03:00:00 [INFO] crawler.spider: 全部解析成功，共 30 条
+2026-06-09 03:00:00 [INFO] __main__: Step 1 完成：抓取 30 条记录
+2026-06-09 03:00:00 [INFO] crawler.storage: ✅ 入库完成：新增 0 条，更新 0 条，跳过 30 条
+2026-06-09 03:00:00 [INFO] __main__: Step 2 完成：新增 0，更新 0，跳过 30
+2026-06-09 03:00:00 [INFO] __main__: ═══ 采集任务完成 ═══
+2026-06-09 03:00:00 [INFO] apscheduler.executors.default: Job "每日竞彩数据采集 (trigger: cron[hour='3', minute='0'], next run at: 2026-06-10 03:00:00 CST)" executed successfully
+2026-06-10 03:00:00 [INFO] apscheduler.executors.default: Running job "每日竞彩数据采集 (trigger: cron[hour='3', minute='0'], next run at: 2026-06-11 03:00:00 CST)" (scheduled at 2026-06-10 03:00:00+08:00)
+2026-06-10 03:00:00 [INFO] __main__: ═══ 开始采集任务 2026-06-05 → 2026-06-10 ═══
+2026-06-10 03:00:00 [INFO] crawler.spider: 开始抓取比赛数据 2026-06-05 → 2026-06-10
+2026-06-10 03:00:00 [INFO] crawler.spider: 总页数: 2，第 1 页数据: 30 条
+2026-06-10 03:00:00 [INFO] crawler.spider: 正在抓取第 2 / 2 页...
+2026-06-10 03:00:01 [INFO] crawler.spider: 全部页抓取完成，共 34 条原始记录
+2026-06-10 03:00:01 [INFO] crawler.spider: 全部解析成功，共 34 条
+2026-06-10 03:00:01 [INFO] __main__: Step 1 完成：抓取 34 条记录
+2026-06-10 03:00:01 [INFO] crawler.storage: ✅ 入库完成：新增 4 条，更新 0 条，跳过 30 条
+2026-06-10 03:00:01 [INFO] __main__: Step 2 完成：新增 4，更新 0，跳过 30
+2026-06-10 03:00:01 [INFO] __main__: ═══ 采集任务完成 ═══
+2026-06-10 03:00:01 [INFO] apscheduler.executors.default: Job "每日竞彩数据采集 (trigger: cron[hour='3', minute='0'], next run at: 2026-06-11 03:00:00 CST)" executed successfully
+2026-06-11 03:00:00 [INFO] apscheduler.executors.default: Running job "每日竞彩数据采集 (trigger: cron[hour='3', minute='0'], next run at: 2026-06-12 03:00:00 CST)" (scheduled at 2026-06-11 03:00:00+08:00)
+2026-06-11 03:00:00 [INFO] __main__: ═══ 开始采集任务 2026-06-06 → 2026-06-11 ═══
+2026-06-11 03:00:00 [INFO] crawler.spider: 开始抓取比赛数据 2026-06-06 → 2026-06-11
+2026-06-11 03:00:00 [INFO] crawler.spider: 总页数: 1，第 1 页数据: 30 条
+2026-06-11 03:00:00 [INFO] crawler.spider: 全部页抓取完成，共 30 条原始记录
+2026-06-11 03:00:00 [INFO] crawler.spider: 全部解析成功，共 30 条
+2026-06-11 03:00:00 [INFO] __main__: Step 1 完成：抓取 30 条记录
+2026-06-11 03:00:00 [INFO] crawler.storage: ✅ 入库完成：新增 2 条，更新 1 条，跳过 27 条
+2026-06-11 03:00:00 [INFO] __main__: Step 2 完成：新增 2，更新 1，跳过 27
+2026-06-11 03:00:00 [INFO] __main__: ═══ 采集任务完成 ═══
+2026-06-11 03:00:00 [INFO] apscheduler.executors.default: Job "每日竞彩数据采集 (trigger: cron[hour='3', minute='0'], next run at: 2026-06-12 03:00:00 CST)" executed successfully
+2026-06-12 03:00:00 [INFO] apscheduler.executors.default: Running job "每日竞彩数据采集 (trigger: cron[hour='3', minute='0'], next run at: 2026-06-13 03:00:00 CST)" (scheduled at 2026-06-12 03:00:00+08:00)
+2026-06-12 03:00:00 [INFO] __main__: ═══ 开始采集任务 2026-06-07 → 2026-06-12 ═══
+2026-06-12 03:00:00 [INFO] crawler.spider: 开始抓取比赛数据 2026-06-07 → 2026-06-12
+2026-06-12 03:00:00 [INFO] crawler.spider: 总页数: 1，第 1 页数据: 22 条
+2026-06-12 03:00:00 [INFO] crawler.spider: 全部页抓取完成，共 22 条原始记录
+2026-06-12 03:00:00 [INFO] crawler.spider: 全部解析成功，共 22 条
+2026-06-12 03:00:00 [INFO] __main__: Step 1 完成：抓取 22 条记录
+2026-06-12 03:00:00 [INFO] crawler.storage: ✅ 入库完成：新增 2 条，更新 0 条，跳过 20 条
+2026-06-12 03:00:00 [INFO] __main__: Step 2 完成：新增 2，更新 0，跳过 20
+2026-06-12 03:00:00 [INFO] __main__: ═══ 采集任务完成 ═══
+2026-06-12 03:00:00 [INFO] apscheduler.executors.default: Job "每日竞彩数据采集 (trigger: cron[hour='3', minute='0'], next run at: 2026-06-13 03:00:00 CST)" executed successfully
+2026-06-13 03:00:00 [INFO] apscheduler.executors.default: Running job "每日竞彩数据采集 (trigger: cron[hour='3', minute='0'], next run at: 2026-06-14 03:00:00 CST)" (scheduled at 2026-06-13 03:00:00+08:00)
+2026-06-13 03:00:00 [INFO] __main__: ═══ 开始采集任务 2026-06-08 → 2026-06-13 ═══
+2026-06-13 03:00:00 [INFO] crawler.spider: 开始抓取比赛数据 2026-06-08 → 2026-06-13
+2026-06-13 03:00:00 [INFO] crawler.spider: 总页数: 1，第 1 页数据: 14 条
+2026-06-13 03:00:00 [INFO] crawler.spider: 全部页抓取完成，共 14 条原始记录
+2026-06-13 03:00:00 [INFO] crawler.spider: 全部解析成功，共 14 条
+2026-06-13 03:00:00 [INFO] __main__: Step 1 完成：抓取 14 条记录
+2026-06-13 03:00:00 [INFO] crawler.storage: ✅ 入库完成：新增 2 条，更新 0 条，跳过 12 条
+2026-06-13 03:00:00 [INFO] __main__: Step 2 完成：新增 2，更新 0，跳过 12
+2026-06-13 03:00:00 [INFO] __main__: ═══ 采集任务完成 ═══
+2026-06-13 03:00:00 [INFO] apscheduler.executors.default: Job "每日竞彩数据采集 (trigger: cron[hour='3', minute='0'], next run at: 2026-06-14 03:00:00 CST)" executed successfully
+2026-06-14 03:00:00 [INFO] apscheduler.executors.default: Running job "每日竞彩数据采集 (trigger: cron[hour='3', minute='0'], next run at: 2026-06-15 03:00:00 CST)" (scheduled at 2026-06-14 03:00:00+08:00)
+2026-06-14 03:00:00 [INFO] __main__: ═══ 开始采集任务 2026-06-09 → 2026-06-14 ═══
+2026-06-14 03:00:00 [INFO] crawler.spider: 开始抓取比赛数据 2026-06-09 → 2026-06-14
+2026-06-14 03:00:00 [INFO] crawler.spider: 总页数: 1，第 1 页数据: 16 条
+2026-06-14 03:00:00 [INFO] crawler.spider: 全部页抓取完成，共 16 条原始记录
+2026-06-14 03:00:00 [INFO] crawler.spider: 全部解析成功，共 16 条
+2026-06-14 03:00:00 [INFO] __main__: Step 1 完成：抓取 16 条记录
+2026-06-14 03:00:00 [INFO] crawler.storage: ✅ 入库完成：新增 6 条，更新 0 条，跳过 10 条
+2026-06-14 03:00:00 [INFO] __main__: Step 2 完成：新增 6，更新 0，跳过 10
+2026-06-14 03:00:00 [INFO] __main__: ═══ 采集任务完成 ═══
+2026-06-14 03:00:00 [INFO] apscheduler.executors.default: Job "每日竞彩数据采集 (trigger: cron[hour='3', minute='0'], next run at: 2026-06-15 03:00:00 CST)" executed successfully
+2026-06-15 03:00:00 [INFO] apscheduler.executors.default: Running job "每日竞彩数据采集 (trigger: cron[hour='3', minute='0'], next run at: 2026-06-16 03:00:00 CST)" (scheduled at 2026-06-15 03:00:00+08:00)
+2026-06-15 03:00:00 [INFO] __main__: ═══ 开始采集任务 2026-06-10 → 2026-06-15 ═══
+2026-06-15 03:00:00 [INFO] crawler.spider: 开始抓取比赛数据 2026-06-10 → 2026-06-15
+2026-06-15 03:00:00 [INFO] crawler.spider: 总页数: 1，第 1 页数据: 18 条
+2026-06-15 03:00:00 [INFO] crawler.spider: 全部页抓取完成，共 18 条原始记录
+2026-06-15 03:00:00 [INFO] crawler.spider: 全部解析成功，共 18 条
+2026-06-15 03:00:00 [INFO] __main__: Step 1 完成：抓取 18 条记录
+2026-06-15 03:00:00 [INFO] crawler.storage: ✅ 入库完成：新增 6 条，更新 2 条，跳过 10 条
+2026-06-15 03:00:00 [INFO] __main__: Step 2 完成：新增 6，更新 2，跳过 10
+2026-06-15 03:00:00 [INFO] __main__: ═══ 采集任务完成 ═══
+2026-06-15 03:00:00 [INFO] apscheduler.executors.default: Job "每日竞彩数据采集 (trigger: cron[hour='3', minute='0'], next run at: 2026-06-16 03:00:00 CST)" executed successfully
+2026-06-16 03:00:00 [INFO] apscheduler.executors.default: Running job "每日竞彩数据采集 (trigger: cron[hour='3', minute='0'], next run at: 2026-06-17 03:00:00 CST)" (scheduled at 2026-06-16 03:00:00+08:00)
+2026-06-16 03:00:00 [INFO] __main__: ═══ 开始采集任务 2026-06-11 → 2026-06-16 ═══
+2026-06-16 03:00:00 [INFO] crawler.spider: 开始抓取比赛数据 2026-06-11 → 2026-06-16
+2026-06-16 03:00:00 [INFO] crawler.spider: 总页数: 1，第 1 页数据: 20 条
+2026-06-16 03:00:00 [INFO] crawler.spider: 全部页抓取完成，共 20 条原始记录
+2026-06-16 03:00:00 [INFO] crawler.spider: 全部解析成功，共 20 条
+2026-06-16 03:00:00 [INFO] __main__: Step 1 完成：抓取 20 条记录
+2026-06-16 03:00:00 [INFO] crawler.storage: ✅ 入库完成：新增 4 条，更新 0 条，跳过 16 条
+2026-06-16 03:00:00 [INFO] __main__: Step 2 完成：新增 4，更新 0，跳过 16
+2026-06-16 03:00:00 [INFO] __main__: ═══ 采集任务完成 ═══
+2026-06-16 03:00:00 [INFO] apscheduler.executors.default: Job "每日竞彩数据采集 (trigger: cron[hour='3', minute='0'], next run at: 2026-06-17 03:00:00 CST)" executed successfully
+2026-06-17 03:00:00 [INFO] apscheduler.executors.default: Running job "每日竞彩数据采集 (trigger: cron[hour='3', minute='0'], next run at: 2026-06-18 03:00:00 CST)" (scheduled at 2026-06-17 03:00:00+08:00)
+2026-06-17 03:00:00 [INFO] __main__: ═══ 开始采集任务 2026-06-12 → 2026-06-17 ═══
+2026-06-17 03:00:00 [INFO] crawler.spider: 开始抓取比赛数据 2026-06-12 → 2026-06-17
+2026-06-17 03:00:00 [INFO] crawler.spider: 总页数: 1，第 1 页数据: 22 条
+2026-06-17 03:00:00 [INFO] crawler.spider: 全部页抓取完成，共 22 条原始记录
+2026-06-17 03:00:00 [INFO] crawler.spider: 全部解析成功，共 22 条
+2026-06-17 03:00:00 [INFO] __main__: Step 1 完成：抓取 22 条记录
+2026-06-17 03:00:00 [INFO] crawler.storage: ✅ 入库完成：新增 4 条，更新 0 条，跳过 18 条
+2026-06-17 03:00:00 [INFO] __main__: Step 2 完成：新增 4，更新 0，跳过 18
+2026-06-17 03:00:00 [INFO] __main__: ═══ 采集任务完成 ═══
+2026-06-17 03:00:00 [INFO] apscheduler.executors.default: Job "每日竞彩数据采集 (trigger: cron[hour='3', minute='0'], next run at: 2026-06-18 03:00:00 CST)" executed successfully
+2026-06-18 03:00:00 [INFO] apscheduler.executors.default: Running job "每日竞彩数据采集 (trigger: cron[hour='3', minute='0'], next run at: 2026-06-19 03:00:00 CST)" (scheduled at 2026-06-18 03:00:00+08:00)
+2026-06-18 03:00:00 [INFO] __main__: ═══ 开始采集任务 2026-06-13 → 2026-06-18 ═══
+2026-06-18 03:00:00 [INFO] crawler.spider: 开始抓取比赛数据 2026-06-13 → 2026-06-18
+2026-06-18 03:00:00 [INFO] crawler.spider: 总页数: 1，第 1 页数据: 24 条
+2026-06-18 03:00:00 [INFO] crawler.spider: 全部页抓取完成，共 24 条原始记录
+2026-06-18 03:00:00 [INFO] crawler.spider: 全部解析成功，共 24 条
+2026-06-18 03:00:00 [INFO] __main__: Step 1 完成：抓取 24 条记录
+2026-06-18 03:00:00 [INFO] crawler.storage: ✅ 入库完成：新增 4 条，更新 0 条，跳过 20 条
+2026-06-18 03:00:00 [INFO] __main__: Step 2 完成：新增 4，更新 0，跳过 20
+2026-06-18 03:00:00 [INFO] __main__: ═══ 采集任务完成 ═══
+2026-06-18 03:00:00 [INFO] apscheduler.executors.default: Job "每日竞彩数据采集 (trigger: cron[hour='3', minute='0'], next run at: 2026-06-19 03:00:00 CST)" executed successfully
+2026-06-19 03:00:00 [INFO] apscheduler.executors.default: Running job "每日竞彩数据采集 (trigger: cron[hour='3', minute='0'], next run at: 2026-06-20 03:00:00 CST)" (scheduled at 2026-06-19 03:00:00+08:00)
+2026-06-19 03:00:00 [INFO] __main__: ═══ 开始采集任务 2026-06-14 → 2026-06-19 ═══
+2026-06-19 03:00:00 [INFO] crawler.spider: 开始抓取比赛数据 2026-06-14 → 2026-06-19
+2026-06-19 03:00:00 [INFO] crawler.spider: 总页数: 1，第 1 页数据: 28 条
+2026-06-19 03:00:00 [INFO] crawler.spider: 全部页抓取完成，共 28 条原始记录
+2026-06-19 03:00:00 [INFO] crawler.spider: 全部解析成功，共 28 条
+2026-06-19 03:00:00 [INFO] __main__: Step 1 完成：抓取 28 条记录
+2026-06-19 03:00:00 [INFO] crawler.storage: ✅ 入库完成：新增 10 条，更新 0 条，跳过 18 条
+2026-06-19 03:00:00 [INFO] __main__: Step 2 完成：新增 10，更新 0，跳过 18
+2026-06-19 03:00:00 [INFO] __main__: ═══ 采集任务完成 ═══
+2026-06-19 03:00:00 [INFO] apscheduler.executors.default: Job "每日竞彩数据采集 (trigger: cron[hour='3', minute='0'], next run at: 2026-06-20 03:00:00 CST)" executed successfully
+2026-06-20 03:00:00 [INFO] apscheduler.executors.default: Running job "每日竞彩数据采集 (trigger: cron[hour='3', minute='0'], next run at: 2026-06-21 03:00:00 CST)" (scheduled at 2026-06-20 03:00:00+08:00)
+2026-06-20 03:00:00 [INFO] __main__: ═══ 开始采集任务 2026-06-15 → 2026-06-20 ═══
+2026-06-20 03:00:00 [INFO] crawler.spider: 开始抓取比赛数据 2026-06-15 → 2026-06-20
+2026-06-20 03:00:00 [INFO] crawler.spider: 总页数: 1，第 1 页数据: 26 条
+2026-06-20 03:00:00 [INFO] crawler.spider: 全部页抓取完成，共 26 条原始记录
+2026-06-20 03:00:00 [INFO] crawler.spider: 全部解析成功，共 26 条
+2026-06-20 03:00:00 [INFO] __main__: Step 1 完成：抓取 26 条记录
+2026-06-20 03:00:00 [INFO] crawler.storage: ✅ 入库完成：新增 4 条，更新 0 条，跳过 22 条
+2026-06-20 03:00:00 [INFO] __main__: Step 2 完成：新增 4，更新 0，跳过 22
+2026-06-20 03:00:00 [INFO] __main__: ═══ 采集任务完成 ═══
+2026-06-20 03:00:00 [INFO] apscheduler.executors.default: Job "每日竞彩数据采集 (trigger: cron[hour='3', minute='0'], next run at: 2026-06-21 03:00:00 CST)" executed successfully

@@ -1,0 +1,1114 @@
+nohup: ignoring input
+
+Collecting usage statistics. To deactivate, set browser.gatherUsageStats to false.
+
+2026-06-07 23:31:42.197 Uvicorn server started on 0.0.0.0:8501
+
+  You can now view your Streamlit app in your browser.
+
+  Local URL: http://localhost:8501
+  Network URL: http://10.1.0.15:8501
+  External URL: http://101.33.247.39:8501
+
+2026-06-07 23:31:46.414 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+/home/ubuntu/project/football/app/ui/charts.py:75: UserWarning: Glyph 22330 (\N{CJK UNIFIED IDEOGRAPH-573A}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+/home/ubuntu/project/football/app/ui/charts.py:75: UserWarning: Glyph 27425 (\N{CJK UNIFIED IDEOGRAPH-6B21}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+findfont: Font family 'PingFang SC' not found.
+/home/ubuntu/project/football/app/ui/charts.py:75: UserWarning: Glyph 20854 (\N{CJK UNIFIED IDEOGRAPH-5176}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+/home/ubuntu/project/football/app/ui/charts.py:75: UserWarning: Glyph 23427 (\N{CJK UNIFIED IDEOGRAPH-5B83}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+/home/ubuntu/project/football/app/ui/charts.py:75: UserWarning: Glyph 21457 (\N{CJK UNIFIED IDEOGRAPH-53D1}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+/home/ubuntu/project/football/app/ui/charts.py:75: UserWarning: Glyph 29983 (\N{CJK UNIFIED IDEOGRAPH-751F}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+/home/ubuntu/project/football/app/ui/charts.py:75: UserWarning: Glyph 27010 (\N{CJK UNIFIED IDEOGRAPH-6982}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+/home/ubuntu/project/football/app/ui/charts.py:75: UserWarning: Glyph 29575 (\N{CJK UNIFIED IDEOGRAPH-7387}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+findfont: Font family 'PingFang SC' not found.
+/home/ubuntu/project/football/app/ui/charts.py:75: UserWarning: Glyph 36187 (\N{CJK UNIFIED IDEOGRAPH-8D5B}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+/home/ubuntu/project/football/app/ui/charts.py:75: UserWarning: Glyph 26524 (\N{CJK UNIFIED IDEOGRAPH-679C}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+/home/ubuntu/project/football/app/ui/charts.py:75: UserWarning: Glyph 20998 (\N{CJK UNIFIED IDEOGRAPH-5206}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+/home/ubuntu/project/football/app/ui/charts.py:75: UserWarning: Glyph 24067 (\N{CJK UNIFIED IDEOGRAPH-5E03}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+findfont: Font family 'PingFang SC' not found.
+/home/ubuntu/project/football/app/ui/charts.py:75: UserWarning: Glyph 20027 (\N{CJK UNIFIED IDEOGRAPH-4E3B}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+/home/ubuntu/project/football/app/ui/charts.py:75: UserWarning: Glyph 32988 (\N{CJK UNIFIED IDEOGRAPH-80DC}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+findfont: Font family 'PingFang SC' not found.
+/home/ubuntu/project/football/app/ui/charts.py:75: UserWarning: Glyph 23458 (\N{CJK UNIFIED IDEOGRAPH-5BA2}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+findfont: Font family 'PingFang SC' not found.
+/home/ubuntu/project/football/app/ui/charts.py:75: UserWarning: Glyph 24179 (\N{CJK UNIFIED IDEOGRAPH-5E73}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+/home/ubuntu/project/football/app/ui/charts.py:75: UserWarning: Glyph 23616 (\N{CJK UNIFIED IDEOGRAPH-5C40}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+/home/ubuntu/miniconda3/lib/python3.13/site-packages/streamlit/elements/pyplot.py:225: UserWarning: Glyph 22330 (\N{CJK UNIFIED IDEOGRAPH-573A}) missing from font(s) DejaVu Sans.
+  fig.savefig(image, **kwargs)
+/home/ubuntu/miniconda3/lib/python3.13/site-packages/streamlit/elements/pyplot.py:225: UserWarning: Glyph 27425 (\N{CJK UNIFIED IDEOGRAPH-6B21}) missing from font(s) DejaVu Sans.
+  fig.savefig(image, **kwargs)
+findfont: Font family 'PingFang SC' not found.
+/home/ubuntu/miniconda3/lib/python3.13/site-packages/streamlit/elements/pyplot.py:225: UserWarning: Glyph 20854 (\N{CJK UNIFIED IDEOGRAPH-5176}) missing from font(s) DejaVu Sans.
+  fig.savefig(image, **kwargs)
+/home/ubuntu/miniconda3/lib/python3.13/site-packages/streamlit/elements/pyplot.py:225: UserWarning: Glyph 23427 (\N{CJK UNIFIED IDEOGRAPH-5B83}) missing from font(s) DejaVu Sans.
+  fig.savefig(image, **kwargs)
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+/home/ubuntu/miniconda3/lib/python3.13/site-packages/streamlit/elements/pyplot.py:225: UserWarning: Glyph 21457 (\N{CJK UNIFIED IDEOGRAPH-53D1}) missing from font(s) DejaVu Sans.
+  fig.savefig(image, **kwargs)
+/home/ubuntu/miniconda3/lib/python3.13/site-packages/streamlit/elements/pyplot.py:225: UserWarning: Glyph 29983 (\N{CJK UNIFIED IDEOGRAPH-751F}) missing from font(s) DejaVu Sans.
+  fig.savefig(image, **kwargs)
+/home/ubuntu/miniconda3/lib/python3.13/site-packages/streamlit/elements/pyplot.py:225: UserWarning: Glyph 27010 (\N{CJK UNIFIED IDEOGRAPH-6982}) missing from font(s) DejaVu Sans.
+  fig.savefig(image, **kwargs)
+/home/ubuntu/miniconda3/lib/python3.13/site-packages/streamlit/elements/pyplot.py:225: UserWarning: Glyph 29575 (\N{CJK UNIFIED IDEOGRAPH-7387}) missing from font(s) DejaVu Sans.
+  fig.savefig(image, **kwargs)
+findfont: Font family 'PingFang SC' not found.
+/home/ubuntu/miniconda3/lib/python3.13/site-packages/streamlit/elements/pyplot.py:225: UserWarning: Glyph 36187 (\N{CJK UNIFIED IDEOGRAPH-8D5B}) missing from font(s) DejaVu Sans.
+  fig.savefig(image, **kwargs)
+/home/ubuntu/miniconda3/lib/python3.13/site-packages/streamlit/elements/pyplot.py:225: UserWarning: Glyph 26524 (\N{CJK UNIFIED IDEOGRAPH-679C}) missing from font(s) DejaVu Sans.
+  fig.savefig(image, **kwargs)
+/home/ubuntu/miniconda3/lib/python3.13/site-packages/streamlit/elements/pyplot.py:225: UserWarning: Glyph 20998 (\N{CJK UNIFIED IDEOGRAPH-5206}) missing from font(s) DejaVu Sans.
+  fig.savefig(image, **kwargs)
+/home/ubuntu/miniconda3/lib/python3.13/site-packages/streamlit/elements/pyplot.py:225: UserWarning: Glyph 24067 (\N{CJK UNIFIED IDEOGRAPH-5E03}) missing from font(s) DejaVu Sans.
+  fig.savefig(image, **kwargs)
+findfont: Font family 'PingFang SC' not found.
+/home/ubuntu/miniconda3/lib/python3.13/site-packages/streamlit/elements/pyplot.py:225: UserWarning: Glyph 20027 (\N{CJK UNIFIED IDEOGRAPH-4E3B}) missing from font(s) DejaVu Sans.
+  fig.savefig(image, **kwargs)
+/home/ubuntu/miniconda3/lib/python3.13/site-packages/streamlit/elements/pyplot.py:225: UserWarning: Glyph 32988 (\N{CJK UNIFIED IDEOGRAPH-80DC}) missing from font(s) DejaVu Sans.
+  fig.savefig(image, **kwargs)
+findfont: Font family 'PingFang SC' not found.
+/home/ubuntu/miniconda3/lib/python3.13/site-packages/streamlit/elements/pyplot.py:225: UserWarning: Glyph 23458 (\N{CJK UNIFIED IDEOGRAPH-5BA2}) missing from font(s) DejaVu Sans.
+  fig.savefig(image, **kwargs)
+findfont: Font family 'PingFang SC' not found.
+/home/ubuntu/miniconda3/lib/python3.13/site-packages/streamlit/elements/pyplot.py:225: UserWarning: Glyph 24179 (\N{CJK UNIFIED IDEOGRAPH-5E73}) missing from font(s) DejaVu Sans.
+  fig.savefig(image, **kwargs)
+/home/ubuntu/miniconda3/lib/python3.13/site-packages/streamlit/elements/pyplot.py:225: UserWarning: Glyph 23616 (\N{CJK UNIFIED IDEOGRAPH-5C40}) missing from font(s) DejaVu Sans.
+  fig.savefig(image, **kwargs)
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+2026-06-07 23:31:48.206 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+/home/ubuntu/project/football/app/ui/charts.py:114: UserWarning: Glyph 21344 (\N{CJK UNIFIED IDEOGRAPH-5360}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+/home/ubuntu/project/football/app/ui/charts.py:114: UserWarning: Glyph 27604 (\N{CJK UNIFIED IDEOGRAPH-6BD4}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+findfont: Font family 'PingFang SC' not found.
+/home/ubuntu/project/football/app/ui/charts.py:114: UserWarning: Glyph 35753 (\N{CJK UNIFIED IDEOGRAPH-8BA9}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+/home/ubuntu/project/football/app/ui/charts.py:114: UserWarning: Glyph 29699 (\N{CJK UNIFIED IDEOGRAPH-7403}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+/home/ubuntu/project/football/app/ui/charts.py:114: UserWarning: Glyph 28145 (\N{CJK UNIFIED IDEOGRAPH-6DF1}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+/home/ubuntu/project/football/app/ui/charts.py:114: UserWarning: Glyph 24230 (\N{CJK UNIFIED IDEOGRAPH-5EA6}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+/home/ubuntu/project/football/app/ui/charts.py:114: UserWarning: Glyph 23545 (\N{CJK UNIFIED IDEOGRAPH-5BF9}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+/home/ubuntu/project/football/app/ui/charts.py:114: UserWarning: Glyph 36187 (\N{CJK UNIFIED IDEOGRAPH-8D5B}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+/home/ubuntu/project/football/app/ui/charts.py:114: UserWarning: Glyph 26524 (\N{CJK UNIFIED IDEOGRAPH-679C}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+/home/ubuntu/project/football/app/ui/charts.py:114: UserWarning: Glyph 30340 (\N{CJK UNIFIED IDEOGRAPH-7684}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+/home/ubuntu/project/football/app/ui/charts.py:114: UserWarning: Glyph 31232 (\N{CJK UNIFIED IDEOGRAPH-7A00}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+/home/ubuntu/project/football/app/ui/charts.py:114: UserWarning: Glyph 37322 (\N{CJK UNIFIED IDEOGRAPH-91CA}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+/home/ubuntu/project/football/app/ui/charts.py:114: UserWarning: Glyph 25928 (\N{CJK UNIFIED IDEOGRAPH-6548}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+/home/ubuntu/project/football/app/ui/charts.py:114: UserWarning: Glyph 24212 (\N{CJK UNIFIED IDEOGRAPH-5E94}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+/home/ubuntu/project/football/app/ui/charts.py:114: UserWarning: Glyph 20027 (\N{CJK UNIFIED IDEOGRAPH-4E3B}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+/home/ubuntu/project/football/app/ui/charts.py:114: UserWarning: Glyph 32988 (\N{CJK UNIFIED IDEOGRAPH-80DC}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+findfont: Font family 'PingFang SC' not found.
+/home/ubuntu/project/football/app/ui/charts.py:114: UserWarning: Glyph 23458 (\N{CJK UNIFIED IDEOGRAPH-5BA2}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+findfont: Font family 'PingFang SC' not found.
+/home/ubuntu/project/football/app/ui/charts.py:114: UserWarning: Glyph 24179 (\N{CJK UNIFIED IDEOGRAPH-5E73}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+/home/ubuntu/project/football/app/ui/charts.py:114: UserWarning: Glyph 23616 (\N{CJK UNIFIED IDEOGRAPH-5C40}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+/home/ubuntu/miniconda3/lib/python3.13/site-packages/streamlit/elements/pyplot.py:225: UserWarning: Glyph 21344 (\N{CJK UNIFIED IDEOGRAPH-5360}) missing from font(s) DejaVu Sans.
+  fig.savefig(image, **kwargs)
+/home/ubuntu/miniconda3/lib/python3.13/site-packages/streamlit/elements/pyplot.py:225: UserWarning: Glyph 27604 (\N{CJK UNIFIED IDEOGRAPH-6BD4}) missing from font(s) DejaVu Sans.
+  fig.savefig(image, **kwargs)
+findfont: Font family 'PingFang SC' not found.
+/home/ubuntu/miniconda3/lib/python3.13/site-packages/streamlit/elements/pyplot.py:225: UserWarning: Glyph 35753 (\N{CJK UNIFIED IDEOGRAPH-8BA9}) missing from font(s) DejaVu Sans.
+  fig.savefig(image, **kwargs)
+/home/ubuntu/miniconda3/lib/python3.13/site-packages/streamlit/elements/pyplot.py:225: UserWarning: Glyph 29699 (\N{CJK UNIFIED IDEOGRAPH-7403}) missing from font(s) DejaVu Sans.
+  fig.savefig(image, **kwargs)
+/home/ubuntu/miniconda3/lib/python3.13/site-packages/streamlit/elements/pyplot.py:225: UserWarning: Glyph 28145 (\N{CJK UNIFIED IDEOGRAPH-6DF1}) missing from font(s) DejaVu Sans.
+  fig.savefig(image, **kwargs)
+/home/ubuntu/miniconda3/lib/python3.13/site-packages/streamlit/elements/pyplot.py:225: UserWarning: Glyph 24230 (\N{CJK UNIFIED IDEOGRAPH-5EA6}) missing from font(s) DejaVu Sans.
+  fig.savefig(image, **kwargs)
+/home/ubuntu/miniconda3/lib/python3.13/site-packages/streamlit/elements/pyplot.py:225: UserWarning: Glyph 23545 (\N{CJK UNIFIED IDEOGRAPH-5BF9}) missing from font(s) DejaVu Sans.
+  fig.savefig(image, **kwargs)
+/home/ubuntu/miniconda3/lib/python3.13/site-packages/streamlit/elements/pyplot.py:225: UserWarning: Glyph 36187 (\N{CJK UNIFIED IDEOGRAPH-8D5B}) missing from font(s) DejaVu Sans.
+  fig.savefig(image, **kwargs)
+/home/ubuntu/miniconda3/lib/python3.13/site-packages/streamlit/elements/pyplot.py:225: UserWarning: Glyph 26524 (\N{CJK UNIFIED IDEOGRAPH-679C}) missing from font(s) DejaVu Sans.
+  fig.savefig(image, **kwargs)
+/home/ubuntu/miniconda3/lib/python3.13/site-packages/streamlit/elements/pyplot.py:225: UserWarning: Glyph 30340 (\N{CJK UNIFIED IDEOGRAPH-7684}) missing from font(s) DejaVu Sans.
+  fig.savefig(image, **kwargs)
+/home/ubuntu/miniconda3/lib/python3.13/site-packages/streamlit/elements/pyplot.py:225: UserWarning: Glyph 31232 (\N{CJK UNIFIED IDEOGRAPH-7A00}) missing from font(s) DejaVu Sans.
+  fig.savefig(image, **kwargs)
+/home/ubuntu/miniconda3/lib/python3.13/site-packages/streamlit/elements/pyplot.py:225: UserWarning: Glyph 37322 (\N{CJK UNIFIED IDEOGRAPH-91CA}) missing from font(s) DejaVu Sans.
+  fig.savefig(image, **kwargs)
+/home/ubuntu/miniconda3/lib/python3.13/site-packages/streamlit/elements/pyplot.py:225: UserWarning: Glyph 25928 (\N{CJK UNIFIED IDEOGRAPH-6548}) missing from font(s) DejaVu Sans.
+  fig.savefig(image, **kwargs)
+/home/ubuntu/miniconda3/lib/python3.13/site-packages/streamlit/elements/pyplot.py:225: UserWarning: Glyph 24212 (\N{CJK UNIFIED IDEOGRAPH-5E94}) missing from font(s) DejaVu Sans.
+  fig.savefig(image, **kwargs)
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+/home/ubuntu/miniconda3/lib/python3.13/site-packages/streamlit/elements/pyplot.py:225: UserWarning: Glyph 20027 (\N{CJK UNIFIED IDEOGRAPH-4E3B}) missing from font(s) DejaVu Sans.
+  fig.savefig(image, **kwargs)
+/home/ubuntu/miniconda3/lib/python3.13/site-packages/streamlit/elements/pyplot.py:225: UserWarning: Glyph 32988 (\N{CJK UNIFIED IDEOGRAPH-80DC}) missing from font(s) DejaVu Sans.
+  fig.savefig(image, **kwargs)
+findfont: Font family 'PingFang SC' not found.
+/home/ubuntu/miniconda3/lib/python3.13/site-packages/streamlit/elements/pyplot.py:225: UserWarning: Glyph 23458 (\N{CJK UNIFIED IDEOGRAPH-5BA2}) missing from font(s) DejaVu Sans.
+  fig.savefig(image, **kwargs)
+findfont: Font family 'PingFang SC' not found.
+/home/ubuntu/miniconda3/lib/python3.13/site-packages/streamlit/elements/pyplot.py:225: UserWarning: Glyph 24179 (\N{CJK UNIFIED IDEOGRAPH-5E73}) missing from font(s) DejaVu Sans.
+  fig.savefig(image, **kwargs)
+/home/ubuntu/miniconda3/lib/python3.13/site-packages/streamlit/elements/pyplot.py:225: UserWarning: Glyph 23616 (\N{CJK UNIFIED IDEOGRAPH-5C40}) missing from font(s) DejaVu Sans.
+  fig.savefig(image, **kwargs)
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+/home/ubuntu/project/football/app/ui/charts.py:149: UserWarning: Glyph 21333 (\N{CJK UNIFIED IDEOGRAPH-5355}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+/home/ubuntu/project/football/app/ui/charts.py:149: UserWarning: Glyph 22330 (\N{CJK UNIFIED IDEOGRAPH-573A}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+/home/ubuntu/project/football/app/ui/charts.py:149: UserWarning: Glyph 24635 (\N{CJK UNIFIED IDEOGRAPH-603B}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+/home/ubuntu/project/football/app/ui/charts.py:149: UserWarning: Glyph 36827 (\N{CJK UNIFIED IDEOGRAPH-8FDB}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+/home/ubuntu/project/football/app/ui/charts.py:149: UserWarning: Glyph 29699 (\N{CJK UNIFIED IDEOGRAPH-7403}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+/home/ubuntu/project/football/app/ui/charts.py:149: UserWarning: Glyph 25968 (\N{CJK UNIFIED IDEOGRAPH-6570}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+/home/ubuntu/project/football/app/ui/charts.py:149: UserWarning: Glyph 20998 (\N{CJK UNIFIED IDEOGRAPH-5206}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+/home/ubuntu/project/football/app/ui/charts.py:149: UserWarning: Glyph 24067 (\N{CJK UNIFIED IDEOGRAPH-5E03}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+/home/ubuntu/project/football/app/ui/charts.py:149: UserWarning: Glyph 27604 (\N{CJK UNIFIED IDEOGRAPH-6BD4}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+/home/ubuntu/project/football/app/ui/charts.py:149: UserWarning: Glyph 20363 (\N{CJK UNIFIED IDEOGRAPH-4F8B}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+findfont: Font family 'PingFang SC' not found.
+/home/ubuntu/project/football/app/ui/charts.py:149: UserWarning: Glyph 12304 (\N{LEFT BLACK LENTICULAR BRACKET}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+/home/ubuntu/project/football/app/ui/charts.py:149: UserWarning: Glyph 20840 (\N{CJK UNIFIED IDEOGRAPH-5168}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+/home/ubuntu/project/football/app/ui/charts.py:149: UserWarning: Glyph 37096 (\N{CJK UNIFIED IDEOGRAPH-90E8}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+/home/ubuntu/project/football/app/ui/charts.py:149: UserWarning: Glyph 36187 (\N{CJK UNIFIED IDEOGRAPH-8D5B}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+/home/ubuntu/project/football/app/ui/charts.py:149: UserWarning: Glyph 20107 (\N{CJK UNIFIED IDEOGRAPH-4E8B}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+/home/ubuntu/project/football/app/ui/charts.py:149: UserWarning: Glyph 12305 (\N{RIGHT BLACK LENTICULAR BRACKET}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+/home/ubuntu/project/football/app/ui/charts.py:149: UserWarning: Glyph 27010 (\N{CJK UNIFIED IDEOGRAPH-6982}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+/home/ubuntu/project/football/app/ui/charts.py:149: UserWarning: Glyph 29575 (\N{CJK UNIFIED IDEOGRAPH-7387}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+/home/ubuntu/project/football/app/ui/charts.py:149: UserWarning: Glyph 32479 (\N{CJK UNIFIED IDEOGRAPH-7EDF}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+/home/ubuntu/project/football/app/ui/charts.py:149: UserWarning: Glyph 35745 (\N{CJK UNIFIED IDEOGRAPH-8BA1}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+/home/ubuntu/miniconda3/lib/python3.13/site-packages/streamlit/elements/pyplot.py:225: UserWarning: Glyph 21333 (\N{CJK UNIFIED IDEOGRAPH-5355}) missing from font(s) DejaVu Sans.
+  fig.savefig(image, **kwargs)
+/home/ubuntu/miniconda3/lib/python3.13/site-packages/streamlit/elements/pyplot.py:225: UserWarning: Glyph 22330 (\N{CJK UNIFIED IDEOGRAPH-573A}) missing from font(s) DejaVu Sans.
+  fig.savefig(image, **kwargs)
+/home/ubuntu/miniconda3/lib/python3.13/site-packages/streamlit/elements/pyplot.py:225: UserWarning: Glyph 24635 (\N{CJK UNIFIED IDEOGRAPH-603B}) missing from font(s) DejaVu Sans.
+  fig.savefig(image, **kwargs)
+/home/ubuntu/miniconda3/lib/python3.13/site-packages/streamlit/elements/pyplot.py:225: UserWarning: Glyph 36827 (\N{CJK UNIFIED IDEOGRAPH-8FDB}) missing from font(s) DejaVu Sans.
+  fig.savefig(image, **kwargs)
+/home/ubuntu/miniconda3/lib/python3.13/site-packages/streamlit/elements/pyplot.py:225: UserWarning: Glyph 29699 (\N{CJK UNIFIED IDEOGRAPH-7403}) missing from font(s) DejaVu Sans.
+  fig.savefig(image, **kwargs)
+/home/ubuntu/miniconda3/lib/python3.13/site-packages/streamlit/elements/pyplot.py:225: UserWarning: Glyph 25968 (\N{CJK UNIFIED IDEOGRAPH-6570}) missing from font(s) DejaVu Sans.
+  fig.savefig(image, **kwargs)
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+/home/ubuntu/miniconda3/lib/python3.13/site-packages/streamlit/elements/pyplot.py:225: UserWarning: Glyph 20998 (\N{CJK UNIFIED IDEOGRAPH-5206}) missing from font(s) DejaVu Sans.
+  fig.savefig(image, **kwargs)
+/home/ubuntu/miniconda3/lib/python3.13/site-packages/streamlit/elements/pyplot.py:225: UserWarning: Glyph 24067 (\N{CJK UNIFIED IDEOGRAPH-5E03}) missing from font(s) DejaVu Sans.
+  fig.savefig(image, **kwargs)
+/home/ubuntu/miniconda3/lib/python3.13/site-packages/streamlit/elements/pyplot.py:225: UserWarning: Glyph 27604 (\N{CJK UNIFIED IDEOGRAPH-6BD4}) missing from font(s) DejaVu Sans.
+  fig.savefig(image, **kwargs)
+/home/ubuntu/miniconda3/lib/python3.13/site-packages/streamlit/elements/pyplot.py:225: UserWarning: Glyph 20363 (\N{CJK UNIFIED IDEOGRAPH-4F8B}) missing from font(s) DejaVu Sans.
+  fig.savefig(image, **kwargs)
+findfont: Font family 'PingFang SC' not found.
+/home/ubuntu/miniconda3/lib/python3.13/site-packages/streamlit/elements/pyplot.py:225: UserWarning: Glyph 12304 (\N{LEFT BLACK LENTICULAR BRACKET}) missing from font(s) DejaVu Sans.
+  fig.savefig(image, **kwargs)
+/home/ubuntu/miniconda3/lib/python3.13/site-packages/streamlit/elements/pyplot.py:225: UserWarning: Glyph 20840 (\N{CJK UNIFIED IDEOGRAPH-5168}) missing from font(s) DejaVu Sans.
+  fig.savefig(image, **kwargs)
+/home/ubuntu/miniconda3/lib/python3.13/site-packages/streamlit/elements/pyplot.py:225: UserWarning: Glyph 37096 (\N{CJK UNIFIED IDEOGRAPH-90E8}) missing from font(s) DejaVu Sans.
+  fig.savefig(image, **kwargs)
+/home/ubuntu/miniconda3/lib/python3.13/site-packages/streamlit/elements/pyplot.py:225: UserWarning: Glyph 36187 (\N{CJK UNIFIED IDEOGRAPH-8D5B}) missing from font(s) DejaVu Sans.
+  fig.savefig(image, **kwargs)
+/home/ubuntu/miniconda3/lib/python3.13/site-packages/streamlit/elements/pyplot.py:225: UserWarning: Glyph 20107 (\N{CJK UNIFIED IDEOGRAPH-4E8B}) missing from font(s) DejaVu Sans.
+  fig.savefig(image, **kwargs)
+/home/ubuntu/miniconda3/lib/python3.13/site-packages/streamlit/elements/pyplot.py:225: UserWarning: Glyph 12305 (\N{RIGHT BLACK LENTICULAR BRACKET}) missing from font(s) DejaVu Sans.
+  fig.savefig(image, **kwargs)
+/home/ubuntu/miniconda3/lib/python3.13/site-packages/streamlit/elements/pyplot.py:225: UserWarning: Glyph 27010 (\N{CJK UNIFIED IDEOGRAPH-6982}) missing from font(s) DejaVu Sans.
+  fig.savefig(image, **kwargs)
+/home/ubuntu/miniconda3/lib/python3.13/site-packages/streamlit/elements/pyplot.py:225: UserWarning: Glyph 29575 (\N{CJK UNIFIED IDEOGRAPH-7387}) missing from font(s) DejaVu Sans.
+  fig.savefig(image, **kwargs)
+/home/ubuntu/miniconda3/lib/python3.13/site-packages/streamlit/elements/pyplot.py:225: UserWarning: Glyph 32479 (\N{CJK UNIFIED IDEOGRAPH-7EDF}) missing from font(s) DejaVu Sans.
+  fig.savefig(image, **kwargs)
+/home/ubuntu/miniconda3/lib/python3.13/site-packages/streamlit/elements/pyplot.py:225: UserWarning: Glyph 35745 (\N{CJK UNIFIED IDEOGRAPH-8BA1}) missing from font(s) DejaVu Sans.
+  fig.savefig(image, **kwargs)
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+/home/ubuntu/project/football/app/ui/charts.py:186: UserWarning: Glyph 26102 (\N{CJK UNIFIED IDEOGRAPH-65F6}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+/home/ubuntu/project/football/app/ui/charts.py:186: UserWarning: Glyph 38388 (\N{CJK UNIFIED IDEOGRAPH-95F4}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+/home/ubuntu/project/football/app/ui/charts.py:186: UserWarning: Glyph 36328 (\N{CJK UNIFIED IDEOGRAPH-8DE8}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+/home/ubuntu/project/football/app/ui/charts.py:186: UserWarning: Glyph 24230 (\N{CJK UNIFIED IDEOGRAPH-5EA6}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+/home/ubuntu/project/football/app/ui/charts.py:186: UserWarning: Glyph 26376 (\N{CJK UNIFIED IDEOGRAPH-6708}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+/home/ubuntu/project/football/app/ui/charts.py:186: UserWarning: Glyph 20221 (\N{CJK UNIFIED IDEOGRAPH-4EFD}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+/home/ubuntu/project/football/app/ui/charts.py:186: UserWarning: Glyph 19979 (\N{CJK UNIFIED IDEOGRAPH-4E0B}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+/home/ubuntu/project/football/app/ui/charts.py:186: UserWarning: Glyph 30424 (\N{CJK UNIFIED IDEOGRAPH-76D8}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+/home/ubuntu/project/football/app/ui/charts.py:186: UserWarning: Glyph 25171 (\N{CJK UNIFIED IDEOGRAPH-6253}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+/home/ubuntu/project/football/app/ui/charts.py:186: UserWarning: Glyph 20986 (\N{CJK UNIFIED IDEOGRAPH-51FA}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+/home/ubuntu/project/football/app/ui/charts.py:186: UserWarning: Glyph 29575 (\N{CJK UNIFIED IDEOGRAPH-7387}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+findfont: Font family 'PingFang SC' not found.
+/home/ubuntu/project/football/app/ui/charts.py:186: UserWarning: Glyph 12304 (\N{LEFT BLACK LENTICULAR BRACKET}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+/home/ubuntu/project/football/app/ui/charts.py:186: UserWarning: Glyph 20840 (\N{CJK UNIFIED IDEOGRAPH-5168}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+/home/ubuntu/project/football/app/ui/charts.py:186: UserWarning: Glyph 37096 (\N{CJK UNIFIED IDEOGRAPH-90E8}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+/home/ubuntu/project/football/app/ui/charts.py:186: UserWarning: Glyph 36187 (\N{CJK UNIFIED IDEOGRAPH-8D5B}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+/home/ubuntu/project/football/app/ui/charts.py:186: UserWarning: Glyph 20107 (\N{CJK UNIFIED IDEOGRAPH-4E8B}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+/home/ubuntu/project/football/app/ui/charts.py:186: UserWarning: Glyph 12305 (\N{RIGHT BLACK LENTICULAR BRACKET}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+/home/ubuntu/project/football/app/ui/charts.py:186: UserWarning: Glyph 21382 (\N{CJK UNIFIED IDEOGRAPH-5386}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+/home/ubuntu/project/football/app/ui/charts.py:186: UserWarning: Glyph 21490 (\N{CJK UNIFIED IDEOGRAPH-53F2}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+/home/ubuntu/project/football/app/ui/charts.py:186: UserWarning: Glyph 21160 (\N{CJK UNIFIED IDEOGRAPH-52A8}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+/home/ubuntu/project/football/app/ui/charts.py:186: UserWarning: Glyph 24577 (\N{CJK UNIFIED IDEOGRAPH-6001}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+/home/ubuntu/project/football/app/ui/charts.py:186: UserWarning: Glyph 36208 (\N{CJK UNIFIED IDEOGRAPH-8D70}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+/home/ubuntu/project/football/app/ui/charts.py:186: UserWarning: Glyph 21183 (\N{CJK UNIFIED IDEOGRAPH-52BF}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+/home/ubuntu/project/football/app/ui/charts.py:186: UserWarning: Glyph 36235 (\N{CJK UNIFIED IDEOGRAPH-8D8B}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+/home/ubuntu/project/football/app/ui/charts.py:186: UserWarning: Glyph 23454 (\N{CJK UNIFIED IDEOGRAPH-5B9E}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+/home/ubuntu/project/football/app/ui/charts.py:186: UserWarning: Glyph 27979 (\N{CJK UNIFIED IDEOGRAPH-6D4B}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+findfont: Font family 'PingFang SC' not found.
+/home/ubuntu/project/football/app/ui/charts.py:186: UserWarning: Glyph 29702 (\N{CJK UNIFIED IDEOGRAPH-7406}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+/home/ubuntu/project/football/app/ui/charts.py:186: UserWarning: Glyph 35770 (\N{CJK UNIFIED IDEOGRAPH-8BBA}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+/home/ubuntu/project/football/app/ui/charts.py:186: UserWarning: Glyph 24179 (\N{CJK UNIFIED IDEOGRAPH-5E73}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+/home/ubuntu/project/football/app/ui/charts.py:186: UserWarning: Glyph 34913 (\N{CJK UNIFIED IDEOGRAPH-8861}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+/home/ubuntu/project/football/app/ui/charts.py:186: UserWarning: Glyph 32447 (\N{CJK UNIFIED IDEOGRAPH-7EBF}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+/home/ubuntu/miniconda3/lib/python3.13/site-packages/streamlit/elements/pyplot.py:225: UserWarning: Glyph 26102 (\N{CJK UNIFIED IDEOGRAPH-65F6}) missing from font(s) DejaVu Sans.
+  fig.savefig(image, **kwargs)
+/home/ubuntu/miniconda3/lib/python3.13/site-packages/streamlit/elements/pyplot.py:225: UserWarning: Glyph 38388 (\N{CJK UNIFIED IDEOGRAPH-95F4}) missing from font(s) DejaVu Sans.
+  fig.savefig(image, **kwargs)
+/home/ubuntu/miniconda3/lib/python3.13/site-packages/streamlit/elements/pyplot.py:225: UserWarning: Glyph 36328 (\N{CJK UNIFIED IDEOGRAPH-8DE8}) missing from font(s) DejaVu Sans.
+  fig.savefig(image, **kwargs)
+/home/ubuntu/miniconda3/lib/python3.13/site-packages/streamlit/elements/pyplot.py:225: UserWarning: Glyph 24230 (\N{CJK UNIFIED IDEOGRAPH-5EA6}) missing from font(s) DejaVu Sans.
+  fig.savefig(image, **kwargs)
+/home/ubuntu/miniconda3/lib/python3.13/site-packages/streamlit/elements/pyplot.py:225: UserWarning: Glyph 26376 (\N{CJK UNIFIED IDEOGRAPH-6708}) missing from font(s) DejaVu Sans.
+  fig.savefig(image, **kwargs)
+/home/ubuntu/miniconda3/lib/python3.13/site-packages/streamlit/elements/pyplot.py:225: UserWarning: Glyph 20221 (\N{CJK UNIFIED IDEOGRAPH-4EFD}) missing from font(s) DejaVu Sans.
+  fig.savefig(image, **kwargs)
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+/home/ubuntu/miniconda3/lib/python3.13/site-packages/streamlit/elements/pyplot.py:225: UserWarning: Glyph 19979 (\N{CJK UNIFIED IDEOGRAPH-4E0B}) missing from font(s) DejaVu Sans.
+  fig.savefig(image, **kwargs)
+/home/ubuntu/miniconda3/lib/python3.13/site-packages/streamlit/elements/pyplot.py:225: UserWarning: Glyph 30424 (\N{CJK UNIFIED IDEOGRAPH-76D8}) missing from font(s) DejaVu Sans.
+  fig.savefig(image, **kwargs)
+/home/ubuntu/miniconda3/lib/python3.13/site-packages/streamlit/elements/pyplot.py:225: UserWarning: Glyph 25171 (\N{CJK UNIFIED IDEOGRAPH-6253}) missing from font(s) DejaVu Sans.
+  fig.savefig(image, **kwargs)
+/home/ubuntu/miniconda3/lib/python3.13/site-packages/streamlit/elements/pyplot.py:225: UserWarning: Glyph 20986 (\N{CJK UNIFIED IDEOGRAPH-51FA}) missing from font(s) DejaVu Sans.
+  fig.savefig(image, **kwargs)
+/home/ubuntu/miniconda3/lib/python3.13/site-packages/streamlit/elements/pyplot.py:225: UserWarning: Glyph 29575 (\N{CJK UNIFIED IDEOGRAPH-7387}) missing from font(s) DejaVu Sans.
+  fig.savefig(image, **kwargs)
+findfont: Font family 'PingFang SC' not found.
+/home/ubuntu/miniconda3/lib/python3.13/site-packages/streamlit/elements/pyplot.py:225: UserWarning: Glyph 12304 (\N{LEFT BLACK LENTICULAR BRACKET}) missing from font(s) DejaVu Sans.
+  fig.savefig(image, **kwargs)
+/home/ubuntu/miniconda3/lib/python3.13/site-packages/streamlit/elements/pyplot.py:225: UserWarning: Glyph 20840 (\N{CJK UNIFIED IDEOGRAPH-5168}) missing from font(s) DejaVu Sans.
+  fig.savefig(image, **kwargs)
+/home/ubuntu/miniconda3/lib/python3.13/site-packages/streamlit/elements/pyplot.py:225: UserWarning: Glyph 37096 (\N{CJK UNIFIED IDEOGRAPH-90E8}) missing from font(s) DejaVu Sans.
+  fig.savefig(image, **kwargs)
+/home/ubuntu/miniconda3/lib/python3.13/site-packages/streamlit/elements/pyplot.py:225: UserWarning: Glyph 36187 (\N{CJK UNIFIED IDEOGRAPH-8D5B}) missing from font(s) DejaVu Sans.
+  fig.savefig(image, **kwargs)
+/home/ubuntu/miniconda3/lib/python3.13/site-packages/streamlit/elements/pyplot.py:225: UserWarning: Glyph 20107 (\N{CJK UNIFIED IDEOGRAPH-4E8B}) missing from font(s) DejaVu Sans.
+  fig.savefig(image, **kwargs)
+/home/ubuntu/miniconda3/lib/python3.13/site-packages/streamlit/elements/pyplot.py:225: UserWarning: Glyph 12305 (\N{RIGHT BLACK LENTICULAR BRACKET}) missing from font(s) DejaVu Sans.
+  fig.savefig(image, **kwargs)
+/home/ubuntu/miniconda3/lib/python3.13/site-packages/streamlit/elements/pyplot.py:225: UserWarning: Glyph 21382 (\N{CJK UNIFIED IDEOGRAPH-5386}) missing from font(s) DejaVu Sans.
+  fig.savefig(image, **kwargs)
+/home/ubuntu/miniconda3/lib/python3.13/site-packages/streamlit/elements/pyplot.py:225: UserWarning: Glyph 21490 (\N{CJK UNIFIED IDEOGRAPH-53F2}) missing from font(s) DejaVu Sans.
+  fig.savefig(image, **kwargs)
+/home/ubuntu/miniconda3/lib/python3.13/site-packages/streamlit/elements/pyplot.py:225: UserWarning: Glyph 21160 (\N{CJK UNIFIED IDEOGRAPH-52A8}) missing from font(s) DejaVu Sans.
+  fig.savefig(image, **kwargs)
+/home/ubuntu/miniconda3/lib/python3.13/site-packages/streamlit/elements/pyplot.py:225: UserWarning: Glyph 24577 (\N{CJK UNIFIED IDEOGRAPH-6001}) missing from font(s) DejaVu Sans.
+  fig.savefig(image, **kwargs)
+/home/ubuntu/miniconda3/lib/python3.13/site-packages/streamlit/elements/pyplot.py:225: UserWarning: Glyph 36208 (\N{CJK UNIFIED IDEOGRAPH-8D70}) missing from font(s) DejaVu Sans.
+  fig.savefig(image, **kwargs)
+/home/ubuntu/miniconda3/lib/python3.13/site-packages/streamlit/elements/pyplot.py:225: UserWarning: Glyph 21183 (\N{CJK UNIFIED IDEOGRAPH-52BF}) missing from font(s) DejaVu Sans.
+  fig.savefig(image, **kwargs)
+/home/ubuntu/miniconda3/lib/python3.13/site-packages/streamlit/elements/pyplot.py:225: UserWarning: Glyph 36235 (\N{CJK UNIFIED IDEOGRAPH-8D8B}) missing from font(s) DejaVu Sans.
+  fig.savefig(image, **kwargs)
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+/home/ubuntu/miniconda3/lib/python3.13/site-packages/streamlit/elements/pyplot.py:225: UserWarning: Glyph 23454 (\N{CJK UNIFIED IDEOGRAPH-5B9E}) missing from font(s) DejaVu Sans.
+  fig.savefig(image, **kwargs)
+/home/ubuntu/miniconda3/lib/python3.13/site-packages/streamlit/elements/pyplot.py:225: UserWarning: Glyph 27979 (\N{CJK UNIFIED IDEOGRAPH-6D4B}) missing from font(s) DejaVu Sans.
+  fig.savefig(image, **kwargs)
+findfont: Font family 'PingFang SC' not found.
+/home/ubuntu/miniconda3/lib/python3.13/site-packages/streamlit/elements/pyplot.py:225: UserWarning: Glyph 29702 (\N{CJK UNIFIED IDEOGRAPH-7406}) missing from font(s) DejaVu Sans.
+  fig.savefig(image, **kwargs)
+/home/ubuntu/miniconda3/lib/python3.13/site-packages/streamlit/elements/pyplot.py:225: UserWarning: Glyph 35770 (\N{CJK UNIFIED IDEOGRAPH-8BBA}) missing from font(s) DejaVu Sans.
+  fig.savefig(image, **kwargs)
+/home/ubuntu/miniconda3/lib/python3.13/site-packages/streamlit/elements/pyplot.py:225: UserWarning: Glyph 24179 (\N{CJK UNIFIED IDEOGRAPH-5E73}) missing from font(s) DejaVu Sans.
+  fig.savefig(image, **kwargs)
+/home/ubuntu/miniconda3/lib/python3.13/site-packages/streamlit/elements/pyplot.py:225: UserWarning: Glyph 34913 (\N{CJK UNIFIED IDEOGRAPH-8861}) missing from font(s) DejaVu Sans.
+  fig.savefig(image, **kwargs)
+/home/ubuntu/miniconda3/lib/python3.13/site-packages/streamlit/elements/pyplot.py:225: UserWarning: Glyph 32447 (\N{CJK UNIFIED IDEOGRAPH-7EBF}) missing from font(s) DejaVu Sans.
+  fig.savefig(image, **kwargs)
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+/home/ubuntu/project/football/app/ui/charts.py:238: UserWarning: Glyph 19978 (\N{CJK UNIFIED IDEOGRAPH-4E0A}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+/home/ubuntu/project/football/app/ui/charts.py:238: UserWarning: Glyph 30424 (\N{CJK UNIFIED IDEOGRAPH-76D8}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+findfont: Font family 'PingFang SC' not found.
+/home/ubuntu/project/football/app/ui/charts.py:238: UserWarning: Glyph 19979 (\N{CJK UNIFIED IDEOGRAPH-4E0B}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+findfont: Font family 'PingFang SC' not found.
+/home/ubuntu/project/football/app/ui/charts.py:238: UserWarning: Glyph 12304 (\N{LEFT BLACK LENTICULAR BRACKET}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+/home/ubuntu/project/football/app/ui/charts.py:238: UserWarning: Glyph 20840 (\N{CJK UNIFIED IDEOGRAPH-5168}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+/home/ubuntu/project/football/app/ui/charts.py:238: UserWarning: Glyph 37096 (\N{CJK UNIFIED IDEOGRAPH-90E8}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+/home/ubuntu/project/football/app/ui/charts.py:238: UserWarning: Glyph 36187 (\N{CJK UNIFIED IDEOGRAPH-8D5B}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+/home/ubuntu/project/football/app/ui/charts.py:238: UserWarning: Glyph 20107 (\N{CJK UNIFIED IDEOGRAPH-4E8B}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+/home/ubuntu/project/football/app/ui/charts.py:238: UserWarning: Glyph 12305 (\N{RIGHT BLACK LENTICULAR BRACKET}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+/home/ubuntu/project/football/app/ui/charts.py:238: UserWarning: Glyph 21333 (\N{CJK UNIFIED IDEOGRAPH-5355}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+/home/ubuntu/project/football/app/ui/charts.py:238: UserWarning: Glyph 22330 (\N{CJK UNIFIED IDEOGRAPH-573A}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+/home/ubuntu/project/football/app/ui/charts.py:238: UserWarning: Glyph 36335 (\N{CJK UNIFIED IDEOGRAPH-8DEF}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+/home/ubuntu/project/football/app/ui/charts.py:238: UserWarning: Glyph 25171 (\N{CJK UNIFIED IDEOGRAPH-6253}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+/home/ubuntu/project/football/app/ui/charts.py:238: UserWarning: Glyph 20986 (\N{CJK UNIFIED IDEOGRAPH-51FA}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+/home/ubuntu/project/football/app/ui/charts.py:238: UserWarning: Glyph 20998 (\N{CJK UNIFIED IDEOGRAPH-5206}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+/home/ubuntu/project/football/app/ui/charts.py:238: UserWarning: Glyph 24067 (\N{CJK UNIFIED IDEOGRAPH-5E03}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+/home/ubuntu/project/football/app/ui/charts.py:238: UserWarning: Glyph 20849 (\N{CJK UNIFIED IDEOGRAPH-5171}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+/home/ubuntu/project/football/app/ui/charts.py:238: UserWarning: Glyph 27604 (\N{CJK UNIFIED IDEOGRAPH-6BD4}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+/home/ubuntu/project/football/app/ui/charts.py:238: UserWarning: Glyph 27425 (\N{CJK UNIFIED IDEOGRAPH-6B21}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+/home/ubuntu/project/football/app/ui/charts.py:238: UserWarning: Glyph 24207 (\N{CJK UNIFIED IDEOGRAPH-5E8F}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+/home/ubuntu/project/football/app/ui/charts.py:238: UserWarning: Glyph 21495 (\N{CJK UNIFIED IDEOGRAPH-53F7}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+/home/ubuntu/project/football/app/ui/charts.py:238: UserWarning: Glyph 25353 (\N{CJK UNIFIED IDEOGRAPH-6309}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+/home/ubuntu/project/football/app/ui/charts.py:238: UserWarning: Glyph 26102 (\N{CJK UNIFIED IDEOGRAPH-65F6}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+/home/ubuntu/project/football/app/ui/charts.py:238: UserWarning: Glyph 38388 (\N{CJK UNIFIED IDEOGRAPH-95F4}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+/home/ubuntu/project/football/app/ui/charts.py:238: UserWarning: Glyph 30001 (\N{CJK UNIFIED IDEOGRAPH-7531}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+/home/ubuntu/project/football/app/ui/charts.py:238: UserWarning: Glyph 36828 (\N{CJK UNIFIED IDEOGRAPH-8FDC}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+/home/ubuntu/project/football/app/ui/charts.py:238: UserWarning: Glyph 21450 (\N{CJK UNIFIED IDEOGRAPH-53CA}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+/home/ubuntu/project/football/app/ui/charts.py:238: UserWarning: Glyph 36817 (\N{CJK UNIFIED IDEOGRAPH-8FD1}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+/home/ubuntu/project/football/app/ui/charts.py:238: UserWarning: Glyph 32047 (\N{CJK UNIFIED IDEOGRAPH-7D2F}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+/home/ubuntu/project/football/app/ui/charts.py:238: UserWarning: Glyph 35745 (\N{CJK UNIFIED IDEOGRAPH-8BA1}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+/home/ubuntu/project/football/app/ui/charts.py:238: UserWarning: Glyph 20928 (\N{CJK UNIFIED IDEOGRAPH-51C0}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+/home/ubuntu/project/football/app/ui/charts.py:238: UserWarning: Glyph 32988 (\N{CJK UNIFIED IDEOGRAPH-80DC}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+/home/ubuntu/project/football/app/ui/charts.py:238: UserWarning: Glyph 25968 (\N{CJK UNIFIED IDEOGRAPH-6570}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+/home/ubuntu/miniconda3/lib/python3.13/site-packages/streamlit/elements/pyplot.py:225: UserWarning: Glyph 19978 (\N{CJK UNIFIED IDEOGRAPH-4E0A}) missing from font(s) DejaVu Sans.
+  fig.savefig(image, **kwargs)
+/home/ubuntu/miniconda3/lib/python3.13/site-packages/streamlit/elements/pyplot.py:225: UserWarning: Glyph 30424 (\N{CJK UNIFIED IDEOGRAPH-76D8}) missing from font(s) DejaVu Sans.
+  fig.savefig(image, **kwargs)
+findfont: Font family 'PingFang SC' not found.
+/home/ubuntu/miniconda3/lib/python3.13/site-packages/streamlit/elements/pyplot.py:225: UserWarning: Glyph 19979 (\N{CJK UNIFIED IDEOGRAPH-4E0B}) missing from font(s) DejaVu Sans.
+  fig.savefig(image, **kwargs)
+findfont: Font family 'PingFang SC' not found.
+/home/ubuntu/miniconda3/lib/python3.13/site-packages/streamlit/elements/pyplot.py:225: UserWarning: Glyph 12304 (\N{LEFT BLACK LENTICULAR BRACKET}) missing from font(s) DejaVu Sans.
+  fig.savefig(image, **kwargs)
+/home/ubuntu/miniconda3/lib/python3.13/site-packages/streamlit/elements/pyplot.py:225: UserWarning: Glyph 20840 (\N{CJK UNIFIED IDEOGRAPH-5168}) missing from font(s) DejaVu Sans.
+  fig.savefig(image, **kwargs)
+/home/ubuntu/miniconda3/lib/python3.13/site-packages/streamlit/elements/pyplot.py:225: UserWarning: Glyph 37096 (\N{CJK UNIFIED IDEOGRAPH-90E8}) missing from font(s) DejaVu Sans.
+  fig.savefig(image, **kwargs)
+/home/ubuntu/miniconda3/lib/python3.13/site-packages/streamlit/elements/pyplot.py:225: UserWarning: Glyph 36187 (\N{CJK UNIFIED IDEOGRAPH-8D5B}) missing from font(s) DejaVu Sans.
+  fig.savefig(image, **kwargs)
+/home/ubuntu/miniconda3/lib/python3.13/site-packages/streamlit/elements/pyplot.py:225: UserWarning: Glyph 20107 (\N{CJK UNIFIED IDEOGRAPH-4E8B}) missing from font(s) DejaVu Sans.
+  fig.savefig(image, **kwargs)
+/home/ubuntu/miniconda3/lib/python3.13/site-packages/streamlit/elements/pyplot.py:225: UserWarning: Glyph 12305 (\N{RIGHT BLACK LENTICULAR BRACKET}) missing from font(s) DejaVu Sans.
+  fig.savefig(image, **kwargs)
+/home/ubuntu/miniconda3/lib/python3.13/site-packages/streamlit/elements/pyplot.py:225: UserWarning: Glyph 21333 (\N{CJK UNIFIED IDEOGRAPH-5355}) missing from font(s) DejaVu Sans.
+  fig.savefig(image, **kwargs)
+/home/ubuntu/miniconda3/lib/python3.13/site-packages/streamlit/elements/pyplot.py:225: UserWarning: Glyph 22330 (\N{CJK UNIFIED IDEOGRAPH-573A}) missing from font(s) DejaVu Sans.
+  fig.savefig(image, **kwargs)
+/home/ubuntu/miniconda3/lib/python3.13/site-packages/streamlit/elements/pyplot.py:225: UserWarning: Glyph 36335 (\N{CJK UNIFIED IDEOGRAPH-8DEF}) missing from font(s) DejaVu Sans.
+  fig.savefig(image, **kwargs)
+/home/ubuntu/miniconda3/lib/python3.13/site-packages/streamlit/elements/pyplot.py:225: UserWarning: Glyph 25171 (\N{CJK UNIFIED IDEOGRAPH-6253}) missing from font(s) DejaVu Sans.
+  fig.savefig(image, **kwargs)
+/home/ubuntu/miniconda3/lib/python3.13/site-packages/streamlit/elements/pyplot.py:225: UserWarning: Glyph 20986 (\N{CJK UNIFIED IDEOGRAPH-51FA}) missing from font(s) DejaVu Sans.
+  fig.savefig(image, **kwargs)
+/home/ubuntu/miniconda3/lib/python3.13/site-packages/streamlit/elements/pyplot.py:225: UserWarning: Glyph 20998 (\N{CJK UNIFIED IDEOGRAPH-5206}) missing from font(s) DejaVu Sans.
+  fig.savefig(image, **kwargs)
+/home/ubuntu/miniconda3/lib/python3.13/site-packages/streamlit/elements/pyplot.py:225: UserWarning: Glyph 24067 (\N{CJK UNIFIED IDEOGRAPH-5E03}) missing from font(s) DejaVu Sans.
+  fig.savefig(image, **kwargs)
+/home/ubuntu/miniconda3/lib/python3.13/site-packages/streamlit/elements/pyplot.py:225: UserWarning: Glyph 20849 (\N{CJK UNIFIED IDEOGRAPH-5171}) missing from font(s) DejaVu Sans.
+  fig.savefig(image, **kwargs)
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+/home/ubuntu/miniconda3/lib/python3.13/site-packages/streamlit/elements/pyplot.py:225: UserWarning: Glyph 27604 (\N{CJK UNIFIED IDEOGRAPH-6BD4}) missing from font(s) DejaVu Sans.
+  fig.savefig(image, **kwargs)
+/home/ubuntu/miniconda3/lib/python3.13/site-packages/streamlit/elements/pyplot.py:225: UserWarning: Glyph 27425 (\N{CJK UNIFIED IDEOGRAPH-6B21}) missing from font(s) DejaVu Sans.
+  fig.savefig(image, **kwargs)
+/home/ubuntu/miniconda3/lib/python3.13/site-packages/streamlit/elements/pyplot.py:225: UserWarning: Glyph 24207 (\N{CJK UNIFIED IDEOGRAPH-5E8F}) missing from font(s) DejaVu Sans.
+  fig.savefig(image, **kwargs)
+/home/ubuntu/miniconda3/lib/python3.13/site-packages/streamlit/elements/pyplot.py:225: UserWarning: Glyph 21495 (\N{CJK UNIFIED IDEOGRAPH-53F7}) missing from font(s) DejaVu Sans.
+  fig.savefig(image, **kwargs)
+/home/ubuntu/miniconda3/lib/python3.13/site-packages/streamlit/elements/pyplot.py:225: UserWarning: Glyph 25353 (\N{CJK UNIFIED IDEOGRAPH-6309}) missing from font(s) DejaVu Sans.
+  fig.savefig(image, **kwargs)
+/home/ubuntu/miniconda3/lib/python3.13/site-packages/streamlit/elements/pyplot.py:225: UserWarning: Glyph 26102 (\N{CJK UNIFIED IDEOGRAPH-65F6}) missing from font(s) DejaVu Sans.
+  fig.savefig(image, **kwargs)
+/home/ubuntu/miniconda3/lib/python3.13/site-packages/streamlit/elements/pyplot.py:225: UserWarning: Glyph 38388 (\N{CJK UNIFIED IDEOGRAPH-95F4}) missing from font(s) DejaVu Sans.
+  fig.savefig(image, **kwargs)
+/home/ubuntu/miniconda3/lib/python3.13/site-packages/streamlit/elements/pyplot.py:225: UserWarning: Glyph 30001 (\N{CJK UNIFIED IDEOGRAPH-7531}) missing from font(s) DejaVu Sans.
+  fig.savefig(image, **kwargs)
+/home/ubuntu/miniconda3/lib/python3.13/site-packages/streamlit/elements/pyplot.py:225: UserWarning: Glyph 36828 (\N{CJK UNIFIED IDEOGRAPH-8FDC}) missing from font(s) DejaVu Sans.
+  fig.savefig(image, **kwargs)
+/home/ubuntu/miniconda3/lib/python3.13/site-packages/streamlit/elements/pyplot.py:225: UserWarning: Glyph 21450 (\N{CJK UNIFIED IDEOGRAPH-53CA}) missing from font(s) DejaVu Sans.
+  fig.savefig(image, **kwargs)
+/home/ubuntu/miniconda3/lib/python3.13/site-packages/streamlit/elements/pyplot.py:225: UserWarning: Glyph 36817 (\N{CJK UNIFIED IDEOGRAPH-8FD1}) missing from font(s) DejaVu Sans.
+  fig.savefig(image, **kwargs)
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+/home/ubuntu/miniconda3/lib/python3.13/site-packages/streamlit/elements/pyplot.py:225: UserWarning: Glyph 32047 (\N{CJK UNIFIED IDEOGRAPH-7D2F}) missing from font(s) DejaVu Sans.
+  fig.savefig(image, **kwargs)
+/home/ubuntu/miniconda3/lib/python3.13/site-packages/streamlit/elements/pyplot.py:225: UserWarning: Glyph 35745 (\N{CJK UNIFIED IDEOGRAPH-8BA1}) missing from font(s) DejaVu Sans.
+  fig.savefig(image, **kwargs)
+/home/ubuntu/miniconda3/lib/python3.13/site-packages/streamlit/elements/pyplot.py:225: UserWarning: Glyph 20928 (\N{CJK UNIFIED IDEOGRAPH-51C0}) missing from font(s) DejaVu Sans.
+  fig.savefig(image, **kwargs)
+/home/ubuntu/miniconda3/lib/python3.13/site-packages/streamlit/elements/pyplot.py:225: UserWarning: Glyph 32988 (\N{CJK UNIFIED IDEOGRAPH-80DC}) missing from font(s) DejaVu Sans.
+  fig.savefig(image, **kwargs)
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+/home/ubuntu/miniconda3/lib/python3.13/site-packages/streamlit/elements/pyplot.py:225: UserWarning: Glyph 25968 (\N{CJK UNIFIED IDEOGRAPH-6570}) missing from font(s) DejaVu Sans.
+  fig.savefig(image, **kwargs)
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+findfont: Font family 'PingFang SC' not found.
+  Stopping...
