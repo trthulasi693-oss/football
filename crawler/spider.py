@@ -103,6 +103,7 @@ def _fetch_page(params: Dict[str, Any]) -> Dict[str, Any]:
                 params=params,
                 headers=API_CONFIG.headers,
                 timeout=API_CONFIG.timeout_seconds,
+                proxies={"http": None, "https": None},
             )
             resp.raise_for_status()
             payload = resp.json()
