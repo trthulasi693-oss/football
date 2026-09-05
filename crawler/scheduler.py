@@ -11,7 +11,7 @@ crawler/scheduler.py
 使用方式：
   python -m crawler.scheduler           # 启动每日定时任务（长驻进程）
   python -m crawler.scheduler --once    # 只运行一次（调试）
-  python -m crawler.scheduler --once --from 2024-01-01 --to 2024-01-31
+  python -m crawler.scheduler --once --from 2026-06-01 --to 2026-06-30
 """
 
 import argparse

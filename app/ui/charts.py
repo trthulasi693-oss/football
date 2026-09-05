@@ -38,8 +38,10 @@ def setup_matplotlib() -> None:
     在 app.py 启动时调用一次。
     """
     plt.rcParams["font.sans-serif"] = CHART_CONFIG.font_families
+    plt.rcParams["font.family"] = "sans-serif"
     plt.rcParams["axes.unicode_minus"] = False
-    sns.set_theme(style="whitegrid", font=CHART_CONFIG.font_families[0])
+    # seaborn 接受单字体或列表，传列表更稳
+    sns.set_theme(style="whitegrid", font=CHART_CONFIG.font_families)
 
 
 # ──────────────────────────────────────────────

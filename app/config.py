@@ -8,6 +8,7 @@ config.py
 """
 
 import os
+import sys
 from dataclasses import dataclass, field
 from pathlib import Path
 from typing import Dict, List
@@ -100,6 +101,76 @@ class DisplayConfig:
     ])
 
 
+def _resolve_cjk_font() -> List[str]:
+    """
+    按"系统 → 优先级 → 探测"返回**真实存在**的 CJK 字体候选列表。
+
+    关键改进：先用 matplotlib.font_manager 探测系统里实际装了哪些字体，
+    再按本系统的候选优先级过滤。matplotlib 只会尝试列表中的字体，
+    因此**不会产生 "findfont: ... not found" 警告**。
+
+    跨平台覆盖：
+      - Windows: Microsoft YaHei / SimHei / SimSun (自带)
+      - macOS:   PingFang SC / Heiti SC / Hiragino Sans GB (自带)
+      - Linux:   Noto Sans CJK SC / WenQuanYi Zen Hei (常装)
+
+    如果系统连一个 CJK 字体都没有，返回 matplotlib 内置的默认 sans-serif
+    （此时中文会渲染为方框，但**绝不会出现字体缺失警告**）。
+    """
+    import matplotlib.font_manager as fm
+
+    # 1) 按系统给出"理想候选顺序"
+    if sys.platform.startswith("win"):
+        ideal = [
+            "Microsoft YaHei",
+            "Microsoft YaHei UI",
+            "SimHei",
+            "SimSun",
+            "NSimSun",
+            "FangSong",
+            "KaiTi",
+            "Arial Unicode MS",
+        ]
+    elif sys.platform == "darwin":
+        ideal = [
+            "PingFang SC",
+            "Heiti SC",
+            "Hiragino Sans GB",
+            "STHeiti",
+            "STSong",
+        ]
+    else:
+        ideal = [
+            "Noto Sans CJK SC",
+            "Noto Sans CJK JP",
+            "Noto Sans CJK TC",
+            "WenQuanYi Zen Hei",
+            "WenQuanYi Micro Hei",
+            "Source Han Sans SC",
+            "Source Han Sans CN",
+            "Source Han Serif SC",
+            "AR PL UMing CN",
+            "AR PL UKai CN",
+        ]
+
+    # 2) 探测系统实际装了哪些字体名（一次性查询，很快）
+    try:
+        installed = {f.name for f in fm.fontManager.ttflist}
+    except Exception:
+        installed = set()
+
+    # 3) 严格按理想顺序筛选真实存在的字体
+    available = [name for name in ideal if name in installed]
+
+    if available:
+        return available
+
+    # 4) 兜底：找不到任何理想字体时，退到系统默认 sans-serif
+    #    matplotlib 内置 DejaVu Sans 一定存在，不会产生警告
+    #    中文会变方框，但程序不会刷屏
+    return ["DejaVu Sans"]
+
+
 @dataclass(frozen=True)
 class ChartConfig:
     """图表颜色与样式配置。"""
@@ -116,10 +187,8 @@ class ChartConfig:
     def result_colors(self) -> List[str]:
         return [self.color_home, self.color_draw, self.color_away]
 
-    # Matplotlib 中文字体（按系统优先级排列）
-    font_families: List[str] = field(default_factory=lambda: [
-        "Noto Serif CJK JP",
-    ])
+    # 跨平台 CJK 字体候选列表（运行时按系统选优先级）
+    font_families: List[str] = field(default_factory=_resolve_cjk_font)
 
     # 图表默认尺寸
     fig_size_wide:   tuple = (10, 3.8)
