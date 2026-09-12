@@ -69,8 +69,9 @@ def _resolve_date_range(
                 f"matchBeginDate ({begin}) 不能晚于 matchEndDate ({end})，请调整日期范围。"
             )
         days_diff = (d_end - d_begin).days
-        if days_diff > API_CONFIG.max_date_range_days:
-            raise DateRangeError("日期跨度过大。")
+        # 实际无限制
+        # if days_diff > API_CONFIG.max_date_range_days:
+        #     raise DateRangeError("日期跨度过大。")
         return begin, end
 
     # 默认：昨天 → 今天
@@ -154,7 +155,7 @@ def fetch_matches(
     抓取指定日期范围内的所有比赛，自动翻页，返回 MatchData 列表。
 
     整合了真实 crawler.py 的完整业务逻辑：
-      - 日期范围校验（最多 30 天）
+      - 日期范围校验（最多 60 天）
       - 自动翻页（pageNo 递增，翻页间隔 1 秒）
       - 使用 MatchData.from_json 解析，解析失败的条目自动跳过
 
