@@ -127,7 +127,7 @@ st.markdown("##### 🗂️ 赛事数据明细库")
 
 # 只展示已存在的列（兼容数据库字段变化）
 available_cols = [c for c in DISPLAY_CONFIG.detail_columns if c in df_all.columns and c not in ['sections_no999']]
-st.dataframe(df_all[available_cols], use_container_width=True, height=500)
+st.dataframe(df_all[available_cols], width='stretch', height=500)
 
 
 # ══════════════════════════════════════════════
@@ -187,7 +187,7 @@ with tabs[0]:
             pivot_table = get_001_pivot_table(df_chart_source)
             st.dataframe(
                 pivot_table.style.format("{:.1f}%"),
-                use_container_width=True,
+                width='stretch',
             )
     else:
         st.info("当前选择的日期范围内没有完赛数据。")
