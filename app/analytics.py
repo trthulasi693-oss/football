@@ -24,6 +24,7 @@ from typing import List, Optional, Tuple
 
 import pandas as pd
 
+from cache import redis_cache
 from config import DOMAIN
 
 logger = logging.getLogger(__name__)
@@ -108,6 +109,7 @@ class FullAnalyticsResult:
 # 2. KPI 计算
 # ──────────────────────────────────────────────
 
+@redis_cache
 def calc_kpi(df_all: pd.DataFrame, df_finished: pd.DataFrame) -> KpiResult:
     """
     计算顶部 KPI 卡片所需指标。
@@ -144,6 +146,7 @@ def calc_kpi(df_all: pd.DataFrame, df_finished: pd.DataFrame) -> KpiResult:
 # 3. 盘路统计
 # ──────────────────────────────────────────────
 
+@redis_cache
 def calc_pan_stats(df: pd.DataFrame) -> PanStats:
     """
     计算有效盘路的上/下/平手分布。
@@ -195,6 +198,7 @@ def _calc_max_streak_for_label(
     )
 
 
+@redis_cache
 def calc_streak(df: pd.DataFrame, label: str = "") -> StreakResult:
     """
     计算给定 DataFrame 内的最大连路（连续下盘 & 连续上盘）。
@@ -261,6 +265,7 @@ def calc_all_streaks(df_chart_source: pd.DataFrame) -> List[StreakResult]:
 # 5. 进球数统计
 # ──────────────────────────────────────────────
 
+@redis_cache
 def calc_goal_stats(df: pd.DataFrame, top_n: int = 3) -> GoalStats:
     """
     计算场均进球数与高频比分。
@@ -282,6 +287,7 @@ def calc_goal_stats(df: pd.DataFrame, top_n: int = 3) -> GoalStats:
 # 6. 下盘趋势聚合
 # ──────────────────────────────────────────────
 
+@redis_cache
 def calc_underdog_trend(df: pd.DataFrame) -> List[UnderdogTrendPoint]:
     """
     按月份聚合下盘打出率，用于趋势折线图。
@@ -316,6 +322,7 @@ def calc_underdog_trend(df: pd.DataFrame) -> List[UnderdogTrendPoint]:
 # 7. 逐场追踪数据
 # ──────────────────────────────────────────────
 
+@redis_cache
 def calc_tracking_data(df: pd.DataFrame) -> Tuple[pd.DataFrame, TrackingStats]:
     """
     生成逐场追踪所需数据：outcome_val（+1/-1）和累计净胜（cum_net）。

@@ -36,6 +36,47 @@ class DatabaseConfig:
 
 
 # ──────────────────────────────────────────────
+# 1.5 Redis 缓存配置
+# ──────────────────────────────────────────────
+
+@dataclass(frozen=True)
+class RedisConfig:
+    """
+    Redis 缓存配置。
+
+    通过环境变量覆盖，便于多环境部署：
+      - LOTTERY_REDIS_HOST      默认 localhost
+      - LOTTERY_REDIS_PORT      默认 6379
+      - LOTTERY_REDIS_DB        默认 0
+      - LOTTERY_REDIS_PASSWORD  默认空（无密码）
+      - LOTTERY_REDIS_ENABLED   默认 "1"（启用）；设为 "0" 完全跳过 Redis
+      - LOTTERY_REDIS_TIMEOUT   默认 2（秒）
+
+    失败策略：任何 Redis 调用出错都会被 app/cache.py 静默吞掉，
+    程序继续走原始计算路径，不影响功能。
+    """
+
+    host:    str   = field(default_factory=lambda: os.getenv("LOTTERY_REDIS_HOST", "localhost"))
+    port:    int   = field(default_factory=lambda: int(os.getenv("LOTTERY_REDIS_PORT", "6379")))
+    db:      int   = field(default_factory=lambda: int(os.getenv("LOTTERY_REDIS_DB",   "0")))
+    password: str  = field(default_factory=lambda: os.getenv("LOTTERY_REDIS_PASSWORD", "") or None)
+    timeout: float = field(default_factory=lambda: float(os.getenv("LOTTERY_REDIS_TIMEOUT", "2")))
+
+    # 总开关：env=LOTTERY_REDIS_ENABLED，0=关闭，1=启用（默认）
+    enabled: bool = field(
+        default_factory=lambda: os.getenv("LOTTERY_REDIS_ENABLED", "1") not in ("0", "false", "False")
+    )
+
+    # 不同类型指标的默认 TTL（秒）
+    ttl_base:     int = 24 * 3600   # 基础指标（kpi / pan_stats）：24 小时
+    ttl_filtered: int = 6  * 3600   # 带过滤的指标：6 小时
+    ttl_tracking: int = 6  * 3600   # 逐场追踪数据：6 小时
+
+    # key 前缀
+    key_prefix: str = "lottery"
+
+
+# ──────────────────────────────────────────────
 # 2. 业务领域常量
 # ──────────────────────────────────────────────
 
@@ -227,6 +268,7 @@ class AppConfig:
 # ──────────────────────────────────────────────
 
 DB_CONFIG      = DatabaseConfig()
+REDIS_CONFIG   = RedisConfig()
 DOMAIN         = DomainConfig()
 DISPLAY_CONFIG = DisplayConfig()
 CHART_CONFIG   = ChartConfig()

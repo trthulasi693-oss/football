@@ -16,5 +16,8 @@ pandas>=2.0.0
 matplotlib>=3.7.0
 seaborn>=0.12.0
 
+# ── 缓存（Redis：跨进程共享分析结果）────────────────────
+redis>=5.0.0
+
 # ── 可选：PostgreSQL 驱动（换云数据库时启用）────────────
 # psycopg2-binary>=2.9.0

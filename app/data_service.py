@@ -247,13 +247,28 @@ def get_finished_df(df: pd.DataFrame) -> pd.DataFrame:
     Returns:
         包含 `match_date_dt`（datetime.date 类型）的已完赛 DataFrame
     """
-    if df.empty:
-        return df
 
     df_finished = df[df["赛果"].isin(DOMAIN.finished_results)].copy()
     if not df_finished.empty:
         df_finished["match_date_dt"] = pd.to_datetime(df_finished["match_date"]).dt.date
     return df_finished
+
+
+def get_db_mtime() -> Optional[float]:
+    """
+    获取数据库文件的最后修改时间（Unix 时间戳）。
+
+    用途：
+      - 作为 Redis 缓存的"数据版本号"
+      - 数据库被爬虫更新后，mtime 改变，所有旧缓存自动失效
+
+    Returns:
+        mtime（float）或 None（文件不存在/无法读取）。
+    """
+    try:
+        return float(os.path.getmtime(DB_CONFIG.path))
+    except (OSError, FileNotFoundError, ValueError):
+        return None
 
 
 def filter_by_date(

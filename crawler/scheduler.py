@@ -122,6 +122,16 @@ def run_crawl_job(
 
     logger.info("═══ 采集任务完成 ═══")
 
+    # ── Step 3: Redis 缓存预热（可选，失败不影响主流程）───
+    try:
+        from scripts.precompute import run_precompute
+        logger.info("Step 3 开始：触发 Redis 缓存预热...")
+        run_precompute()
+    except ImportError as e:
+        logger.warning("预热脚本未找到（%s），跳过预热步骤。", e)
+    except Exception as e:
+        logger.warning("Redis 预热失败（不影响数据采集）: %s", e)
+
 
 # ──────────────────────────────────────────────
 # 调度器启动
